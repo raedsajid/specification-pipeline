@@ -1,0 +1,774 @@
+﻿Evidence catalog size: 414
+
+======================================================================
+1. REJECTED PRODUCTS (from validation_report)
+======================================================================
+NOTE: Artifacts do NOT store raw_extraction. normalized_name / product_group_id / source_clause for rejected products are unavailable except what appears in issues.
+
+
+--- RUN 1 ---
+
+product_id: prod_008
+  name: Hangers, Strut Channels and Angles (Outdoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Hangers, Strut Channels and Angles (Outdoor Finishes)').
+  evidence_ids: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  --- evidence ev_4c39fdcbc999fdf5 ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_cb5df18302fafaea ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be hot dipped galvanized after fabrication in accordance with ASTM A123 or Stainless Steel Type 304. Zinc'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'hangers strut channels and angles outdoor finishes'
+  tokens present in evidence: ['hangers', 'strut', 'channels', 'and', 'angles']
+  tokens MISSING from evidence: ['outdoor', 'finishes']
+
+--- RUN 2 ---
+
+product_id: prod_007
+  name: Hangers (Indoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Hangers (Indoor Finishes)').
+  evidence_ids: ['ev_9fc8b4cbc869c826']
+  --- evidence ev_9fc8b4cbc869c826 ---
+      clause: 2.01.C.1.a
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers shall be zinc plated in accordance with ASTM B633 or shall have an electro-deposited green epoxy finish the equal of Cooper B-Line series Dura Green.'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'hangers indoor finishes'
+  tokens present in evidence: ['hangers']
+  tokens MISSING from evidence: ['indoor', 'finishes']
+
+product_id: prod_008
+  name: Strut Channels and Angles (Indoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Strut Channels and Angles (Indoor Finishes)').
+  evidence_ids: ['ev_365041c061cf011c']
+  --- evidence ev_365041c061cf011c ---
+      clause: 2.01.C.1.a
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '2) Strut channels and angles shall be pregalvanized in accordance with ASTM A653 Grade 33 G90 or have an electrodeposited green epoxy finish the equal of Cooper B-Line series Dura Green.'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'strut channels and angles indoor finishes'
+  tokens present in evidence: ['strut', 'channels', 'and', 'angles']
+  tokens MISSING from evidence: ['indoor', 'finishes']
+
+product_id: prod_009
+  name: Hangers (Outdoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Hangers (Outdoor Finishes)').
+  evidence_ids: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  --- evidence ev_4c39fdcbc999fdf5 ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_cb5df18302fafaea ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be hot dipped galvanized after fabrication in accordance with ASTM A123 or Stainless Steel Type 304. Zinc'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'hangers outdoor finishes'
+  tokens present in evidence: ['hangers']
+  tokens MISSING from evidence: ['outdoor', 'finishes']
+
+product_id: prod_010
+  name: Strut Channels and Angles (Outdoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Strut Channels and Angles (Outdoor Finishes)').
+  evidence_ids: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  --- evidence ev_4c39fdcbc999fdf5 ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_cb5df18302fafaea ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be hot dipped galvanized after fabrication in accordance with ASTM A123 or Stainless Steel Type 304. Zinc'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'strut channels and angles outdoor finishes'
+  tokens present in evidence: ['strut', 'channels', 'and', 'angles']
+  tokens MISSING from evidence: ['outdoor', 'finishes']
+
+product_id: prod_011
+  name: Hangers (Corrosive Area Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Hangers (Corrosive Area Finishes)').
+  evidence_ids: ['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  --- evidence ev_40437afded9bcc47 ---
+      clause: 2.01.C.1.c
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_75887718037245cc ---
+      clause: 2.01.C.1.c
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be Stainless Steel Type 316. Zinc plated and hot dipped galvanized hardware is not acceptable for corrosive areas.'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'hangers corrosive area finishes'
+  tokens present in evidence: ['hangers', 'corrosive', 'area']
+  tokens MISSING from evidence: ['finishes']
+
+product_id: prod_012
+  name: Strut Channels and Angles (Corrosive Area Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Strut Channels and Angles (Corrosive Area Finishes)').
+  evidence_ids: ['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  --- evidence ev_40437afded9bcc47 ---
+      clause: 2.01.C.1.c
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_75887718037245cc ---
+      clause: 2.01.C.1.c
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be Stainless Steel Type 316. Zinc plated and hot dipped galvanized hardware is not acceptable for corrosive areas.'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'strut channels and angles corrosive area finishes'
+  tokens present in evidence: ['strut', 'channels', 'and', 'angles', 'corrosive', 'area']
+  tokens MISSING from evidence: ['finishes']
+
+--- RUN 3 ---
+
+product_id: prod_008
+  name: Hangers, Strut Channels and Angles (Outdoor Finishes)
+  normalized_name: <NOT IN ARTIFACT>
+  product_group_id: <NOT IN ARTIFACT>
+  reason/code: unsupported_product_name / unsupported_product_name
+  message: Product name/normalized_name not supported by cited evidence (name='Hangers, Strut Channels and Angles (Outdoor Finishes)').
+  evidence_ids: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  --- evidence ev_4c39fdcbc999fdf5 ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: '1) Hangers, strut channels and angles'
+  --- evidence ev_cb5df18302fafaea ---
+      clause: 2.01.C.1.b
+      heading: ['PART 2 - PRODUCTS', '2.01 MATERIALS', 'C. Hangers and Supports']
+      text: 'shall be hot dipped galvanized after fabrication in accordance with ASTM A123 or Stainless Steel Type 304. Zinc'
+  _product_name_supported(name as name+norm) => False
+  match_key(name): 'hangers strut channels and angles outdoor finishes'
+  tokens present in evidence: ['hangers', 'strut', 'channels', 'and', 'angles']
+  tokens MISSING from evidence: ['outdoor', 'finishes']
+
+======================================================================
+2. REJECTED PRODUCT GROUPS
+======================================================================
+
+RUN 1:
+  group_id: grp_009
+  reason: no_valid_evidence
+  code: no_valid_evidence
+  message: ProductGroup rejected: no valid evidence IDs remain.
+  detail: no evidence_ids stored on issue (empty list) ΓÇö group cited zero valid catalog IDs or all unknown. Surviving products that referenced this group got dangling_product_group_id warnings.
+  products that lost this group_id: ['prod_040', 'prod_041', 'prod_042', 'prod_043']
+    prod_040: name='Metal Ductwork' evidence=['ev_de2673ee19c6281e', 'ev_6b8a13fc44449671']
+    prod_041: name='Duct Fittings' evidence=['ev_6b8a13fc44449671']
+    prod_042: name='Hoods' evidence=['ev_d0927bbf4ba705b9']
+    prod_043: name='HVAC Systems' evidence=['ev_4782875f7023100e']
+
+RUN 2:
+  NONE
+
+RUN 3:
+  group_id: grp_009
+  reason: no_valid_evidence
+  code: no_valid_evidence
+  message: ProductGroup rejected: no valid evidence IDs remain.
+  detail: no evidence_ids stored on issue (empty list) ΓÇö group cited zero valid catalog IDs or all unknown. Surviving products that referenced this group got dangling_product_group_id warnings.
+  products that lost this group_id: ['prod_040', 'prod_041', 'prod_042', 'prod_043']
+    prod_040: name='Metal Ductwork' evidence=['ev_de2673ee19c6281e', 'ev_6b8a13fc44449671']
+    prod_041: name='Duct Fittings' evidence=['ev_6b8a13fc44449671']
+    prod_042: name='Hoods' evidence=['ev_d0927bbf4ba705b9']
+    prod_043: name='HVAC Systems' evidence=['ev_4782875f7023100e']
+
+======================================================================
+3. REJECTED LINKS
+======================================================================
+NOTE: Rejected links only store link_id + dangling product_id. requirement/title/mapping/evidence for rejected links are NOT in the artifact (raw_extraction omitted from build_artifact).
+
+
+RUN 1:
+  link_id: link_015
+  reason: dangling_product_id
+  product_id: prod_008
+  code: dangling_product_id
+  message: Link rejected: product_id 'prod_008' does not exist in surviving products.
+  rejected product name: Hangers, Strut Channels and Angles (Outdoor Finishes)
+  requirement/mapping/source_phrase/evidence: <NOT IN ARTIFACT ΓÇö cascading reject after product death>
+
+RUN 2:
+  link_id: link_011
+  reason: dangling_product_id
+  product_id: prod_007
+  code: dangling_product_id
+  message: Link rejected: product_id 'prod_007' does not exist in surviving products.
+  rejected product name: Hangers (Indoor Finishes)
+  requirement/mapping/source_phrase/evidence: <NOT IN ARTIFACT ΓÇö cascading reject after product death>
+  link_id: link_012
+  reason: dangling_product_id
+  product_id: prod_009
+  code: dangling_product_id
+  message: Link rejected: product_id 'prod_009' does not exist in surviving products.
+  rejected product name: Hangers (Outdoor Finishes)
+  requirement/mapping/source_phrase/evidence: <NOT IN ARTIFACT ΓÇö cascading reject after product death>
+  link_id: link_013
+  reason: dangling_product_id
+  product_id: prod_011
+  code: dangling_product_id
+  message: Link rejected: product_id 'prod_011' does not exist in surviving products.
+  rejected product name: Hangers (Corrosive Area Finishes)
+  requirement/mapping/source_phrase/evidence: <NOT IN ARTIFACT ΓÇö cascading reject after product death>
+
+RUN 3:
+  link_id: link_015
+  reason: dangling_product_id
+  product_id: prod_008
+  code: dangling_product_id
+  message: Link rejected: product_id 'prod_008' does not exist in surviving products.
+  rejected product name: Hangers, Strut Channels and Angles (Outdoor Finishes)
+  requirement/mapping/source_phrase/evidence: <NOT IN ARTIFACT ΓÇö cascading reject after product death>
+
+======================================================================
+4. RAW VS VALIDATED
+======================================================================
+Run    RawG  ValG  RawP  ValP  RawL  ValL
+1         9     8    43    42    27    26
+      reductions explained by rejected_counts: groups=1 products=1 links=1
+      unexplained reductions: NONE (counts fully accounted)
+2         8     8    44    38    20    17
+      reductions explained by rejected_counts: groups=0 products=6 links=3
+      unexplained reductions: NONE (counts fully accounted)
+3         9     8    43    42    27    26
+      reductions explained by rejected_counts: groups=1 products=1 links=1
+      unexplained reductions: NONE (counts fully accounted)
+
+======================================================================
+5. SAME-EVIDENCE / DIFFERENT-NAME (validated products)
+======================================================================
+
+Exact evidence-set clusters with >1 distinct name:
+
+Evidence set (1 ids): ['ev_86a5479c1e112cf3']
+  [ev_86a5479c1e112cf3] clause=2.01.D.1 text='1. Sheet Metal Screws, Machine Bolts, Rivets and Nuts: Tinned, cadmium plated or rust resistant materials. Bolts shall be button-head stove'
+  Run1: prod_016 name='Sheet Metal Screws' norm='Sheet Metal Screws'
+  Run1: prod_018 name='Rivets' norm='Rivets'
+  Run1: prod_019 name='Nuts' norm='Nuts'
+  Run2: prod_019 name='Sheet Metal Screws' norm='Sheet Metal Screws'
+  Run2: prod_021 name='Rivets' norm='Rivets'
+  Run2: prod_022 name='Nuts' norm='Nuts'
+  Run3: prod_016 name='Sheet Metal Screws' norm='Sheet Metal Screws'
+  Run3: prod_018 name='Rivets' norm='Rivets'
+  Run3: prod_019 name='Nuts' norm='Nuts'
+
+Evidence set (1 ids): ['ev_9879ce86a8fbb4c7']
+  [ev_9879ce86a8fbb4c7] clause=2.01.C.5.a text='a. For indoor use, inserts for use in new conventional reinforced poured concrete slabs shall be as follows: Carpenter & Paterson Inc. No. 650; Anvil Internatio'
+  Run1: prod_011 name='Inserts (for new conventional reinforced poured concrete slabs)' norm='Inserts for Conventional Reinforced Poured Concrete Slabs'
+  Run2: prod_014 name='Inserts for new conventional reinforced poured concrete slabs' norm='Inserts for new conventional reinforced poured concrete slabs'
+  Run3: prod_011 name='Inserts (for new conventional reinforced poured concrete slabs)' norm='Inserts for Conventional Reinforced Poured Concrete Slabs'
+
+Evidence set (2 ids): ['ev_628555ae83913dfb', 'ev_cbe21ee86af29f03']
+  [ev_628555ae83913dfb] clause=2.01.C.5.b text='used to attach hanger rods.'
+  [ev_cbe21ee86af29f03] clause=2.01.C.5.b text="b. For indoor use, inserts for new composite metal decks shall be Powers Fasteners 'BangIt' or Hilti, Inc. Cast-In Anchor HCI-WF (or approved equal). Steel deck"
+  Run1: prod_012 name='Inserts (for new composite metal decks)' norm='Inserts for New Composite Metal Decks'
+  Run2: prod_015 name='Inserts for new composite metal decks' norm='Inserts for new composite metal decks'
+  Run3: prod_012 name='Inserts (for new composite metal decks)' norm='Inserts for New Composite Metal Decks'
+
+Evidence set (1 ids): ['ev_e4aaf6f656d1e099']
+  [ev_e4aaf6f656d1e099] clause=2.01.C.5.c text='c. For indoor use, expansion bolts for use in new and existing reinforced concrete slabs and concrete deck shall be wedge-type zinccoated fastener with pull-out'
+  Run1: prod_013 name='Expansion Bolts (Indoor Use)' norm='Expansion Bolts (Indoor)'
+  Run2: prod_016 name='Expansion Bolts (wedge-type zinc-coated fastener)' norm='Expansion Bolts (wedge-type zinc-coated fastener)'
+  Run3: prod_013 name='Expansion Bolts (Indoor Use)' norm='Expansion Bolts (Indoor)'
+
+Evidence set (6 ids): ['ev_07bdbf89dc3553ea', 'ev_5384238ffebb6b33', 'ev_56310c7936ef343c', 'ev_bff42bf993ebd897', 'ev_dc277111cdc3c550', 'ev_decd656feeebb4b3']
+  [ev_07bdbf89dc3553ea] clause=2.01.C.5.d text='2) "Kwik Bolt 3\' as manufactured by Hilti,'
+  [ev_5384238ffebb6b33] clause=2.01.C.5.d text='d. For outdoor use or usage in corrosive environments (Science Labs, Swimming Pool Natatoriums, etc.) stainless steel expansion bolts are required. Use fully th'
+  [ev_56310c7936ef343c] clause=2.01.C.5.d text="3) 'Power Stud+ SD2' as manufactured by Powers Fasteners, Inc."
+  Run1: prod_014 name='Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' norm='Stainless Steel Expansion Bolts'
+  Run2: prod_017 name='Stainless Steel Expansion Bolts' norm='Stainless Steel Expansion Bolts'
+  Run3: prod_014 name='Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' norm='Stainless Steel Expansion Bolts'
+
+Evidence set (1 ids): ['ev_75895d67050c4bf3']
+  [ev_75895d67050c4bf3] clause=1.04.A.2 text="2. Submit manufacturer's product data for factoryfabricated single wall round ductwork, duct sealant and cement, gasket materials, duct liner and sound traps; a"
+  Run1: prod_031 name='Gasket Materials' norm='Gasket Materials'
+  Run2: prod_044 name='Gasket materials' norm='Gasket materials'
+  Run3: prod_031 name='Gasket Materials' norm='Gasket Materials'
+
+Evidence set (1 ids): ['ev_c413aa122af58a2d']
+  [ev_c413aa122af58a2d] clause=2.07.A.3 text='Per Section MC 506.3.1.1, listed and labeled factorybuilt commercial kitchen grease ducts shall be listed and labeled in accordance with UL 1978 and installed i'
+  Run1: prod_036 name='Commercial Kitchen Grease Ducts (factory-built)' norm='Listed and Labeled Factory-Built Commercial Kitchen Grease Ducts'
+  Run2: prod_037 name='Listed and labeled factory-built commercial kitchen grease ducts' norm='Listed and labeled factory-built commercial kitchen grease ducts'
+  Run3: prod_036 name='Commercial Kitchen Grease Ducts (factory-built)' norm='Listed and Labeled Factory-Built Commercial Kitchen Grease Ducts'
+
+Evidence set (1 ids): ['ev_bf8647c98e9f5f2c']
+  [ev_bf8647c98e9f5f2c] clause=2.07.B text='B. Per Buildings Bulletin 2016-003, grease duct enclosure assemblies not prescribed in the Mechanical Code (refer to Section MC 506.3.11.1) are acceptable as an'
+  Run1: prod_037 name='Grease Duct Enclosure Assemblies (segmented)' norm='Segmented Grease Duct Enclosure Assemblies'
+  Run2: prod_039 name='Grease duct enclosure assemblies' norm='Grease duct enclosure assemblies'
+  Run3: prod_037 name='Grease Duct Enclosure Assemblies (segmented)' norm='Segmented Grease Duct Enclosure Assemblies'
+
+Evidence set (5 ids): ['ev_3320a2f033674997', 'ev_6777825b9389ef70', 'ev_bcb2e68b88db9ab7', 'ev_d7e9932a564d6a2e', 'ev_e45df3562d49d5d1']
+  [ev_3320a2f033674997] clause=2.09.A text='A. Per Buildings Bulletin 2015-013, Fire Resistive Duct Assemblies may be rigid duct assemblies comprised of welded inner steel framework that is clad with a th'
+  [ev_6777825b9389ef70] clause=2.09.B.1 text="1. ISO 6944, 'Fire-Resistance Test for Ventilation Ducts'. Ducts shall be tested and evaluated for stability, integrity and insulation (thermal)."
+  [ev_bcb2e68b88db9ab7] clause=2.09.B.3 text="3. ASTM E84, 'Standard Test Method for Surface Burning Characteristics of Building Materials'."
+  Run1: prod_039 name='Fire Resistive Duct Assemblies' norm='Fire Resistive Duct Assemblies'
+  Run2: prod_043 name='Fire-Resistive Duct Assemblies' norm='Fire-Resistive Duct Assemblies'
+  Run3: prod_039 name='Fire Resistive Duct Assemblies' norm='Fire Resistive Duct Assemblies'
+
+Total exact-evidence clusters with name variance: 9
+
+--- Focused keyword clusters ---
+
+KEYWORD: fire
+  R1 VAL prod_039: 'Fire Resistive Duct Assemblies' ev=['ev_3320a2f033674997', 'ev_d7e9932a564d6a2e', 'ev_6777825b9389ef70', 'ev_e45df3562d49d5d1', 'ev_bcb2e68b88db9ab7']
+  R2 VAL prod_043: 'Fire-Resistive Duct Assemblies' ev=['ev_3320a2f033674997', 'ev_d7e9932a564d6a2e', 'ev_6777825b9389ef70', 'ev_e45df3562d49d5d1', 'ev_bcb2e68b88db9ab7']
+  R3 VAL prod_039: 'Fire Resistive Duct Assemblies' ev=['ev_3320a2f033674997', 'ev_d7e9932a564d6a2e', 'ev_6777825b9389ef70', 'ev_e45df3562d49d5d1', 'ev_bcb2e68b88db9ab7']
+
+KEYWORD: gasket
+  R1 VAL prod_031: 'Gasket Materials' ev=['ev_75895d67050c4bf3']
+  R2 VAL prod_044: 'Gasket materials' ev=['ev_75895d67050c4bf3']
+  R3 VAL prod_031: 'Gasket Materials' ev=['ev_75895d67050c4bf3']
+
+KEYWORD: single wall
+  R1 VAL prod_032: 'Factory-fabricated single wall round ductwork and fittings' ev=['ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88', 'ev_232aeac3c982f77c', 'ev_91d832367e3baa57', 'ev_82981f390b65708c']
+  R2 VAL prod_034: 'Factory-fabricated single wall round ductwork' ev=['ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88', 'ev_232aeac3c982f77c', 'ev_82981f390b65708c']
+  R3 VAL prod_032: 'Factory-fabricated single wall round ductwork and fittings' ev=['ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88', 'ev_232aeac3c982f77c', 'ev_91d832367e3baa57', 'ev_82981f390b65708c']
+
+KEYWORD: double wall
+  R1 VAL prod_033: 'Factory-fabricated double wall round ductwork and fittings' ev=['ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80', 'ev_31dfd440b46b68a7', 'ev_7673417554af4035', 'ev_c15d93a92e80fd29']
+  R2 VAL prod_035: 'Factory-fabricated double wall duct and fittings' ev=['ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80', 'ev_7673417554af4035', 'ev_c15d93a92e80fd29']
+  R3 VAL prod_033: 'Factory-fabricated double wall round ductwork and fittings' ev=['ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80', 'ev_31dfd440b46b68a7', 'ev_7673417554af4035', 'ev_c15d93a92e80fd29']
+
+KEYWORD: expansion
+  R1 VAL prod_013: 'Expansion Bolts (Indoor Use)' ev=['ev_e4aaf6f656d1e099']
+  R1 VAL prod_014: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' ev=['ev_5384238ffebb6b33', 'ev_bff42bf993ebd897', 'ev_decd656feeebb4b3', 'ev_07bdbf89dc3553ea', 'ev_dc277111cdc3c550', 'ev_56310c7936ef343c']
+  R2 VAL prod_016: 'Expansion Bolts (wedge-type zinc-coated fastener)' ev=['ev_e4aaf6f656d1e099']
+  R2 VAL prod_017: 'Stainless Steel Expansion Bolts' ev=['ev_5384238ffebb6b33', 'ev_bff42bf993ebd897', 'ev_decd656feeebb4b3', 'ev_07bdbf89dc3553ea', 'ev_dc277111cdc3c550', 'ev_56310c7936ef343c']
+  R3 VAL prod_013: 'Expansion Bolts (Indoor Use)' ev=['ev_e4aaf6f656d1e099']
+  R3 VAL prod_014: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' ev=['ev_5384238ffebb6b33', 'ev_bff42bf993ebd897', 'ev_decd656feeebb4b3', 'ev_07bdbf89dc3553ea', 'ev_dc277111cdc3c550', 'ev_56310c7936ef343c']
+
+KEYWORD: polyimide
+  R1 VAL prod_029: 'Polyimide Foam Duct Liner' ev=['ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1', 'ev_1027978d26ca3776']
+  R2 VAL prod_032: 'Non-erosive, open cell, fiber-free, polyimide foam material' ev=['ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1']
+  R3 VAL prod_029: 'Polyimide Foam Duct Liner' ev=['ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1', 'ev_1027978d26ca3776']
+
+KEYWORD: liner
+  R1 VAL prod_029: 'Polyimide Foam Duct Liner' ev=['ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1', 'ev_1027978d26ca3776']
+  R3 VAL prod_029: 'Polyimide Foam Duct Liner' ev=['ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1', 'ev_1027978d26ca3776']
+
+KEYWORD: sound
+  R1 VAL prod_038: 'Packaged Sound Traps' ev=['ev_b5583e625de4dc93', 'ev_6ffb136204d619ae', 'ev_b4181a501208a8e7', 'ev_a11774af96e02ca8']
+  R2 VAL prod_040: 'Sound traps (packaged)' ev=['ev_b5583e625de4dc93', 'ev_b4181a501208a8e7', 'ev_a11774af96e02ca8']
+  R2 VAL prod_041: 'Rectangular Sound Traps' ev=['ev_e555999c165c1247']
+  R2 VAL prod_042: 'Round Sound Traps' ev=['ev_b7ca4316c88fbdd5', 'ev_aa1854e784d9fa60', 'ev_56a8cdb20438eeac', 'ev_f6ffee5b2faf0989', 'ev_898e1a1c8001fea7', 'ev_461bfaa8cbe465e1', 'ev_fe40e60aa52d2d15', 'ev_5691e2a8900b7d4c', 'ev_740f97f44ed4eb62', 'ev_090ecfe8e08e2837']
+  R3 VAL prod_038: 'Packaged Sound Traps' ev=['ev_b5583e625de4dc93', 'ev_6ffb136204d619ae', 'ev_b4181a501208a8e7', 'ev_a11774af96e02ca8']
+
+KEYWORD: kitchen
+  R1 VAL prod_034: 'Kitchen hood exhaust ducts and supports (carbon steel)' ev=['ev_8c11f36b5c0a6b16']
+  R1 VAL prod_036: 'Commercial Kitchen Grease Ducts (factory-built)' ev=['ev_c413aa122af58a2d']
+  R2 VAL prod_036: 'Kitchen hood exhaust ducts and supports (carbon steel sheets)' ev=['ev_8c11f36b5c0a6b16', 'ev_4d97a600b847a059', 'ev_eca7dd814f9a9df0', 'ev_d1b3e3e5168a1cc3', 'ev_7f6740427fd0dbf4', 'ev_4491e797071fea15']
+  R2 VAL prod_037: 'Listed and labeled factory-built commercial kitchen grease ducts' ev=['ev_c413aa122af58a2d']
+  R3 VAL prod_034: 'Kitchen hood exhaust ducts and supports (carbon steel)' ev=['ev_8c11f36b5c0a6b16']
+  R3 VAL prod_036: 'Commercial Kitchen Grease Ducts (factory-built)' ev=['ev_c413aa122af58a2d']
+
+KEYWORD: insert
+  R1 VAL prod_011: 'Inserts (for new conventional reinforced poured concrete slabs)' ev=['ev_9879ce86a8fbb4c7']
+  R1 VAL prod_012: 'Inserts (for new composite metal decks)' ev=['ev_cbe21ee86af29f03', 'ev_628555ae83913dfb']
+  R2 VAL prod_014: 'Inserts for new conventional reinforced poured concrete slabs' ev=['ev_9879ce86a8fbb4c7']
+  R2 VAL prod_015: 'Inserts for new composite metal decks' ev=['ev_cbe21ee86af29f03', 'ev_628555ae83913dfb']
+  R3 VAL prod_011: 'Inserts (for new conventional reinforced poured concrete slabs)' ev=['ev_9879ce86a8fbb4c7']
+  R3 VAL prod_012: 'Inserts (for new composite metal decks)' ev=['ev_cbe21ee86af29f03', 'ev_628555ae83913dfb']
+
+KEYWORD: hanger
+  R1 VAL prod_006: 'Hangers (Indoor Finishes)' ev=['ev_9fc8b4cbc869c826']
+  R1 VAL prod_009: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev=['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  R1 VAL prod_010: 'Rod Type Hangers and Angles' ev=['ev_c52ed75ab57522bb']
+  R1 REJ prod_008: 'Hangers, Strut Channels and Angles (Outdoor Finishes)'
+  R2 VAL prod_013: 'Rod Type Hangers and Angles' ev=['ev_c52ed75ab57522bb']
+  R2 REJ prod_007: 'Hangers (Indoor Finishes)'
+  R2 REJ prod_009: 'Hangers (Outdoor Finishes)'
+  R2 REJ prod_011: 'Hangers (Corrosive Area Finishes)'
+  R3 VAL prod_006: 'Hangers (Indoor Finishes)' ev=['ev_9fc8b4cbc869c826']
+  R3 VAL prod_009: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev=['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  R3 VAL prod_010: 'Rod Type Hangers and Angles' ev=['ev_c52ed75ab57522bb']
+  R3 REJ prod_008: 'Hangers, Strut Channels and Angles (Outdoor Finishes)'
+
+KEYWORD: strut
+  R1 VAL prod_007: 'Strut Channels and Angles (Indoor Finishes)' ev=['ev_365041c061cf011c']
+  R1 VAL prod_009: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev=['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  R1 REJ prod_008: 'Hangers, Strut Channels and Angles (Outdoor Finishes)'
+  R2 REJ prod_008: 'Strut Channels and Angles (Indoor Finishes)'
+  R2 REJ prod_010: 'Strut Channels and Angles (Outdoor Finishes)'
+  R2 REJ prod_012: 'Strut Channels and Angles (Corrosive Area Finishes)'
+  R3 VAL prod_007: 'Strut Channels and Angles (Indoor Finishes)' ev=['ev_365041c061cf011c']
+  R3 VAL prod_009: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev=['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  R3 REJ prod_008: 'Hangers, Strut Channels and Angles (Outdoor Finishes)'
+
+======================================================================
+6. SOURCE-IDENTITY ANALYSIS
+======================================================================
+Validated products with IDENTICAL evidence set across all 3 runs (via R1 anchor exact match R2+R3): 30
+Of those, name differs in at least one run: 10
+Evidence-overlap (>=0.5) with name differences (R1-anchored list): 21
+Products without strong evidence match to peer runs: 7
+
+Identical-evidence name variants:
+  ev=['ev_9879ce86a8fbb4c7']
+    R1: 'Inserts (for new conventional reinforced poured concrete slabs)'
+    R2: 'Inserts for new conventional reinforced poured concrete slabs'
+    R3: 'Inserts (for new conventional reinforced poured concrete slabs)'
+  ev=['ev_cbe21ee86af29f03', 'ev_628555ae83913dfb']
+    R1: 'Inserts (for new composite metal decks)'
+    R2: 'Inserts for new composite metal decks'
+    R3: 'Inserts (for new composite metal decks)'
+  ev=['ev_e4aaf6f656d1e099']
+    R1: 'Expansion Bolts (Indoor Use)'
+    R2: 'Expansion Bolts (wedge-type zinc-coated fastener)'
+    R3: 'Expansion Bolts (Indoor Use)'
+  ev=['ev_5384238ffebb6b33', 'ev_bff42bf993ebd897', 'ev_decd656feeebb4b3', 'ev_07bdbf89dc3553ea', 'ev_dc277111cdc3c550', 'ev_56310c7936ef343c']
+    R1: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)'
+    R2: 'Stainless Steel Expansion Bolts'
+    R3: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)'
+  ev=['ev_86a5479c1e112cf3']
+    R1: 'Rivets'
+    R2: 'Sheet Metal Screws'
+    R3: 'Sheet Metal Screws'
+  ev=['ev_86a5479c1e112cf3']
+    R1: 'Nuts'
+    R2: 'Sheet Metal Screws'
+    R3: 'Sheet Metal Screws'
+  ev=['ev_75895d67050c4bf3']
+    R1: 'Gasket Materials'
+    R2: 'Gasket materials'
+    R3: 'Gasket Materials'
+  ev=['ev_c413aa122af58a2d']
+    R1: 'Commercial Kitchen Grease Ducts (factory-built)'
+    R2: 'Listed and labeled factory-built commercial kitchen grease ducts'
+    R3: 'Commercial Kitchen Grease Ducts (factory-built)'
+  ev=['ev_bf8647c98e9f5f2c']
+    R1: 'Grease Duct Enclosure Assemblies (segmented)'
+    R2: 'Grease duct enclosure assemblies'
+    R3: 'Grease Duct Enclosure Assemblies (segmented)'
+  ev=['ev_3320a2f033674997', 'ev_d7e9932a564d6a2e', 'ev_6777825b9389ef70', 'ev_e45df3562d49d5d1', 'ev_bcb2e68b88db9ab7']
+    R1: 'Fire Resistive Duct Assemblies'
+    R2: 'Fire-Resistive Duct Assemblies'
+    R3: 'Fire Resistive Duct Assemblies'
+
+R1 products with weak/no evidence peer match:
+
+R2-only (no >=0.5 match from R1):
+  prod_021 'Rivets' ev=['ev_86a5479c1e112cf3']
+  prod_022 'Nuts' ev=['ev_86a5479c1e112cf3']
+  prod_036 'Kitchen hood exhaust ducts and supports (carbon steel sheets)' ev=['ev_8c11f36b5c0a6b16', 'ev_4d97a600b847a059', 'ev_eca7dd814f9a9df0', 'ev_d1b3e3e5168a1cc3', 'ev_7f6740427fd0dbf4', 'ev_4491e797071fea15']
+  prod_041 'Rectangular Sound Traps' ev=['ev_e555999c165c1247']
+  prod_042 'Round Sound Traps' ev=['ev_b7ca4316c88fbdd5', 'ev_aa1854e784d9fa60', 'ev_56a8cdb20438eeac', 'ev_f6ffee5b2faf0989', 'ev_898e1a1c8001fea7', 'ev_461bfaa8cbe465e1', 'ev_fe40e60aa52d2d15', 'ev_5691e2a8900b7d4c', 'ev_740f97f44ed4eb62', 'ev_090ecfe8e08e2837']
+
+Primary-evidence IDs present in all 3 runs: 32
+  of which name differs: 13
+Primary-evidence IDs in only one run: 3
+
+======================================================================
+7. GRANULARITY VARIANCE CLUSTERS
+======================================================================
+
+Cluster: sound traps
+  R1 validated(1): ['Packaged Sound Traps']
+  R2 validated(3): ['Sound traps (packaged)', 'Rectangular Sound Traps', 'Round Sound Traps']
+  R3 validated(1): ['Packaged Sound Traps']
+
+Cluster: hanger/strut finish variants
+  R1 validated(4): ['Hangers (Indoor Finishes)', 'Strut Channels and Angles (Indoor Finishes)', 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)', 'Rod Type Hangers and Angles']
+  R1 rejected(1): ['Hangers, Strut Channels and Angles (Outdoor Finishes)']
+  R2 validated(1): ['Rod Type Hangers and Angles']
+  R2 rejected(6): ['Hangers (Indoor Finishes)', 'Strut Channels and Angles (Indoor Finishes)', 'Hangers (Outdoor Finishes)', 'Strut Channels and Angles (Outdoor Finishes)', 'Hangers (Corrosive Area Finishes)', 'Strut Channels and Angles (Corrosive Area Finishes)']
+  R3 validated(4): ['Hangers (Indoor Finishes)', 'Strut Channels and Angles (Indoor Finishes)', 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)', 'Rod Type Hangers and Angles']
+  R3 rejected(1): ['Hangers, Strut Channels and Angles (Outdoor Finishes)']
+
+Cluster: single wall
+  R1 validated(1): ['Factory-fabricated single wall round ductwork and fittings']
+  R2 validated(1): ['Factory-fabricated single wall round ductwork']
+  R3 validated(1): ['Factory-fabricated single wall round ductwork and fittings']
+
+Cluster: double wall
+  R1 validated(1): ['Factory-fabricated double wall round ductwork and fittings']
+  R2 validated(1): ['Factory-fabricated double wall duct and fittings']
+  R3 validated(1): ['Factory-fabricated double wall round ductwork and fittings']
+
+Cluster: duct liner/polyimide
+  R1 validated(2): ['Fiberglass Duct Lining', 'Polyimide Foam Duct Liner']
+  R2 validated(2): ['Fiberglass Duct Lining', 'Non-erosive, open cell, fiber-free, polyimide foam material']
+  R3 validated(2): ['Fiberglass Duct Lining', 'Polyimide Foam Duct Liner']
+
+Cluster: kitchen/grease
+  R1 validated(4): ['Kitchen hood exhaust ducts and supports (carbon steel)', 'Warming Pantry hood exhaust duct and supports (galvanized steel)', 'Commercial Kitchen Grease Ducts (factory-built)', 'Grease Duct Enclosure Assemblies (segmented)']
+  R2 validated(4): ['Kitchen hood exhaust ducts and supports (carbon steel sheets)', 'Listed and labeled factory-built commercial kitchen grease ducts', 'Warming Pantry hood exhaust duct and supports (galvanized steel)', 'Grease duct enclosure assemblies']
+  R3 validated(4): ['Kitchen hood exhaust ducts and supports (carbon steel)', 'Warming Pantry hood exhaust duct and supports (galvanized steel)', 'Commercial Kitchen Grease Ducts (factory-built)', 'Grease Duct Enclosure Assemblies (segmented)']
+
+Cluster: expansion bolts
+  R1 validated(2): ['Expansion Bolts (Indoor Use)', 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)']
+  R2 validated(2): ['Expansion Bolts (wedge-type zinc-coated fastener)', 'Stainless Steel Expansion Bolts']
+  R3 validated(2): ['Expansion Bolts (Indoor Use)', 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)']
+
+Cluster: inserts
+  R1 validated(2): ['Inserts (for new conventional reinforced poured concrete slabs)', 'Inserts (for new composite metal decks)']
+  R2 validated(2): ['Inserts for new conventional reinforced poured concrete slabs', 'Inserts for new composite metal decks']
+  R3 validated(2): ['Inserts (for new conventional reinforced poured concrete slabs)', 'Inserts (for new composite metal decks)']
+
+Cluster: gasket
+  R1 validated(1): ['Gasket Materials']
+  R2 validated(1): ['Gasket materials']
+  R3 validated(1): ['Gasket Materials']
+
+Cluster: fire
+  R1 validated(1): ['Fire Resistive Duct Assemblies']
+  R2 validated(1): ['Fire-Resistive Duct Assemblies']
+  R3 validated(1): ['Fire Resistive Duct Assemblies']
+
+======================================================================
+8. VALIDATOR SENSITIVITY
+======================================================================
+_product_name_supported requires _contains(evidence_blob, name) OR _contains(evidence_blob, normalized_name).
+_contains uses casefold/hyphen normalize; also token-all-in for multi-word needles (tokens len>2).
+Parenthetical qualifiers like '(Indoor Finishes)' often FAIL because 'finishes'/'indoor' may not appear as contiguous needle and token 'finishes' may be absent from evidence even if 'indoor'/'outdoor' exist.
+
+Surviving vs rejected hanger/strut (cross-run):
+  R1 SURVIVE prod_006 name='Hangers (Indoor Finishes)' contains_name=False contains_norm=True norm='Hangers'
+  R1 SURVIVE prod_007 name='Strut Channels and Angles (Indoor Finishes)' contains_name=False contains_norm=True norm='Strut Channels and Angles'
+  R1 SURVIVE prod_009 name='Hangers, Strut Channels and Angles (Corrosive Area Finishes)' contains_name=False contains_norm=True norm='Hangers, Strut Channels and Angles (Corrosive Area)'
+  R1 SURVIVE prod_010 name='Rod Type Hangers and Angles' contains_name=True contains_norm=True norm='Rod Type Hangers and Angles'
+  R2 SURVIVE prod_013 name='Rod Type Hangers and Angles' contains_name=True contains_norm=True norm='Rod Type Hangers and Angles'
+  R3 SURVIVE prod_006 name='Hangers (Indoor Finishes)' contains_name=False contains_norm=True norm='Hangers'
+  R3 SURVIVE prod_007 name='Strut Channels and Angles (Indoor Finishes)' contains_name=False contains_norm=True norm='Strut Channels and Angles'
+  R3 SURVIVE prod_009 name='Hangers, Strut Channels and Angles (Corrosive Area Finishes)' contains_name=False contains_norm=True norm='Hangers, Strut Channels and Angles (Corrosive Area)'
+  R3 SURVIVE prod_010 name='Rod Type Hangers and Angles' contains_name=True contains_norm=True norm='Rod Type Hangers and Angles'
+
+======================================================================
+9. PRODUCT ID STABILITY
+======================================================================
+
+prod_001:
+  R1: 'Aluminum' ev0=('ev_73e07929c09b7160', 'ev_1cc2913650ba9403')
+  R2: 'Metal Ductwork' ev0=('ev_de2673ee19c6281e', 'ev_6b8a13fc44449671')
+  R3: 'Aluminum' ev0=('ev_73e07929c09b7160', 'ev_1cc2913650ba9403')
+
+prod_002:
+  R1: 'Galvanized Steel' ev0=('ev_acf9fe4a31cf0a05',)
+  R2: 'Aluminum' ev0=('ev_73e07929c09b7160', 'ev_1cc2913650ba9403')
+  R3: 'Galvanized Steel' ev0=('ev_acf9fe4a31cf0a05',)
+
+prod_003:
+  R1: 'Stainless Steel' ev0=('ev_d05a8ea621b29472',)
+  R2: 'Galvanized Steel' ev0=('ev_acf9fe4a31cf0a05',)
+  R3: 'Stainless Steel' ev0=('ev_d05a8ea621b29472',)
+
+prod_004:
+  R1: 'Reinforcement Shapes and Plates' ev0=('ev_71489c0d31aa0539',)
+  R2: 'Stainless Steel' ev0=('ev_d05a8ea621b29472',)
+  R3: 'Reinforcement Shapes and Plates' ev0=('ev_71489c0d31aa0539',)
+
+prod_005:
+  R1: 'Tie Rods' ev0=('ev_75d5c9efe6a76508',)
+  R2: 'Reinforcement Shapes and Plates' ev0=('ev_71489c0d31aa0539',)
+  R3: 'Tie Rods' ev0=('ev_75d5c9efe6a76508',)
+
+prod_006:
+  R1: 'Hangers (Indoor Finishes)' ev0=('ev_9fc8b4cbc869c826',)
+  R2: 'Tie Rods' ev0=('ev_75d5c9efe6a76508',)
+  R3: 'Hangers (Indoor Finishes)' ev0=('ev_9fc8b4cbc869c826',)
+
+prod_007:
+  R1: 'Strut Channels and Angles (Indoor Finishes)' ev0=('ev_365041c061cf011c',)
+  R2: 'REJ:Hangers (Indoor Finishes)' ev0=()
+  R3: 'Strut Channels and Angles (Indoor Finishes)' ev0=('ev_365041c061cf011c',)
+
+prod_009:
+  R1: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev0=('ev_40437afded9bcc47', 'ev_75887718037245cc')
+  R2: 'REJ:Hangers (Outdoor Finishes)' ev0=()
+  R3: 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)' ev0=('ev_40437afded9bcc47', 'ev_75887718037245cc')
+
+prod_010:
+  R1: 'Rod Type Hangers and Angles' ev0=('ev_c52ed75ab57522bb',)
+  R2: 'REJ:Strut Channels and Angles (Outdoor Finishes)' ev0=()
+  R3: 'Rod Type Hangers and Angles' ev0=('ev_c52ed75ab57522bb',)
+
+prod_011:
+  R1: 'Inserts (for new conventional reinforced poured concrete slabs)' ev0=('ev_9879ce86a8fbb4c7',)
+  R2: 'REJ:Hangers (Corrosive Area Finishes)' ev0=()
+  R3: 'Inserts (for new conventional reinforced poured concrete slabs)' ev0=('ev_9879ce86a8fbb4c7',)
+
+prod_012:
+  R1: 'Inserts (for new composite metal decks)' ev0=('ev_cbe21ee86af29f03', 'ev_628555ae83913dfb')
+  R2: 'REJ:Strut Channels and Angles (Corrosive Area Finishes)' ev0=()
+  R3: 'Inserts (for new composite metal decks)' ev0=('ev_cbe21ee86af29f03', 'ev_628555ae83913dfb')
+
+prod_013:
+  R1: 'Expansion Bolts (Indoor Use)' ev0=('ev_e4aaf6f656d1e099',)
+  R2: 'Rod Type Hangers and Angles' ev0=('ev_c52ed75ab57522bb',)
+  R3: 'Expansion Bolts (Indoor Use)' ev0=('ev_e4aaf6f656d1e099',)
+
+prod_014:
+  R1: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' ev0=('ev_5384238ffebb6b33', 'ev_bff42bf993ebd897')
+  R2: 'Inserts for new conventional reinforced poured concrete slabs' ev0=('ev_9879ce86a8fbb4c7',)
+  R3: 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)' ev0=('ev_5384238ffebb6b33', 'ev_bff42bf993ebd897')
+
+prod_015:
+  R1: 'Cable Hanging Systems (Gripple)' ev0=('ev_116dc1e748b77cf9', 'ev_e25a883c76d19232')
+  R2: 'Inserts for new composite metal decks' ev0=('ev_cbe21ee86af29f03', 'ev_628555ae83913dfb')
+  R3: 'Cable Hanging Systems (Gripple)' ev0=('ev_116dc1e748b77cf9', 'ev_e25a883c76d19232')
+
+prod_016:
+  R1: 'Sheet Metal Screws' ev0=('ev_86a5479c1e112cf3',)
+  R2: 'Expansion Bolts (wedge-type zinc-coated fastener)' ev0=('ev_e4aaf6f656d1e099',)
+  R3: 'Sheet Metal Screws' ev0=('ev_86a5479c1e112cf3',)
+
+prod_017:
+  R1: 'Machine Bolts' ev0=('ev_86a5479c1e112cf3', 'ev_74335c41fa282e49')
+  R2: 'Stainless Steel Expansion Bolts' ev0=('ev_5384238ffebb6b33', 'ev_bff42bf993ebd897')
+  R3: 'Machine Bolts' ev0=('ev_86a5479c1e112cf3', 'ev_74335c41fa282e49')
+
+prod_018:
+  R1: 'Rivets' ev0=('ev_86a5479c1e112cf3',)
+  R2: 'Cable Hanging Systems (Gripple)' ev0=('ev_116dc1e748b77cf9', 'ev_e25a883c76d19232')
+  R3: 'Rivets' ev0=('ev_86a5479c1e112cf3',)
+
+prod_019:
+  R1: 'Nuts' ev0=('ev_86a5479c1e112cf3',)
+  R2: 'Sheet Metal Screws' ev0=('ev_86a5479c1e112cf3',)
+  R3: 'Nuts' ev0=('ev_86a5479c1e112cf3',)
+
+prod_020:
+  R1: 'Beam Clamps' ev0=('ev_6bb89f584c97e96f', 'ev_a055c1c0cf697576')
+  R2: 'Machine Bolts' ev0=('ev_86a5479c1e112cf3', 'ev_74335c41fa282e49')
+  R3: 'Beam Clamps' ev0=('ev_6bb89f584c97e96f', 'ev_a055c1c0cf697576')
+
+prod_021:
+  R1: 'Welding Studs' ev0=('ev_b4814056e580d920',)
+  R2: 'Rivets' ev0=('ev_86a5479c1e112cf3',)
+  R3: 'Welding Studs' ev0=('ev_b4814056e580d920',)
+
+prod_022:
+  R1: 'Structural (carbon) Steel Shapes and Steel Plates' ev0=('ev_e0bf6ddd876dee79',)
+  R2: 'Nuts' ev0=('ev_86a5479c1e112cf3',)
+  R3: 'Structural (carbon) Steel Shapes and Steel Plates' ev0=('ev_e0bf6ddd876dee79',)
+
+prod_023:
+  R1: 'Stainless Steel Shapes and Plates' ev0=('ev_35fd3496800b0769',)
+  R2: 'Beam Clamps' ev0=('ev_6bb89f584c97e96f', 'ev_a055c1c0cf697576')
+  R3: 'Stainless Steel Shapes and Plates' ev0=('ev_35fd3496800b0769',)
+
+prod_024:
+  R1: 'Duct Sealant' ev0=('ev_6b3435d412351e9a', 'ev_338e489ff913be38')
+  R2: 'Welding Studs' ev0=('ev_b4814056e580d920',)
+  R3: 'Duct Sealant' ev0=('ev_6b3435d412351e9a', 'ev_338e489ff913be38')
+
+prod_025:
+  R1: 'Duct Cement' ev0=('ev_2d679eab78d86cee', 'ev_fcea35fc52046c14')
+  R2: 'Structural (carbon) Steel Shapes and Steel Plates' ev0=('ev_e0bf6ddd876dee79',)
+  R3: 'Duct Cement' ev0=('ev_2d679eab78d86cee', 'ev_fcea35fc52046c14')
+
+prod_026:
+  R1: 'Flexible Ducts' ev0=('ev_999ef9a5349ac637',)
+  R2: 'Stainless Steel Shapes and Plates' ev0=('ev_35fd3496800b0769',)
+  R3: 'Flexible Ducts' ev0=('ev_999ef9a5349ac637',)
+
+prod_027:
+  R1: 'Underslab Ducts' ev0=('ev_5434bc06536bfee6', 'ev_abd20914c10d6193')
+  R2: 'Duct Sealant' ev0=('ev_6b3435d412351e9a', 'ev_338e489ff913be38')
+  R3: 'Underslab Ducts' ev0=('ev_5434bc06536bfee6', 'ev_abd20914c10d6193')
+
+prod_028:
+  R1: 'Fiberglass Duct Lining' ev0=('ev_91dbdb536d1e56fa', 'ev_b0885a6d27880c95')
+  R2: 'Duct Cement' ev0=('ev_2d679eab78d86cee', 'ev_fcea35fc52046c14')
+  R3: 'Fiberglass Duct Lining' ev0=('ev_91dbdb536d1e56fa', 'ev_b0885a6d27880c95')
+
+prod_029:
+  R1: 'Polyimide Foam Duct Liner' ev0=('ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1')
+  R2: 'Flexible Ducts' ev0=('ev_999ef9a5349ac637',)
+  R3: 'Polyimide Foam Duct Liner' ev0=('ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1')
+
+prod_030:
+  R1: 'Weld material' ev0=('ev_798db4d330bdf855', 'ev_483049e43195c743')
+  R2: 'Underslab Ducts' ev0=('ev_5434bc06536bfee6', 'ev_abd20914c10d6193')
+  R3: 'Weld material' ev0=('ev_798db4d330bdf855', 'ev_483049e43195c743')
+
+prod_031:
+  R1: 'Gasket Materials' ev0=('ev_75895d67050c4bf3',)
+  R2: 'Fiberglass Duct Lining' ev0=('ev_91dbdb536d1e56fa', 'ev_b0885a6d27880c95')
+  R3: 'Gasket Materials' ev0=('ev_75895d67050c4bf3',)
+
+prod_032:
+  R1: 'Factory-fabricated single wall round ductwork and fittings' ev0=('ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88')
+  R2: 'Non-erosive, open cell, fiber-free, polyimide foam material' ev0=('ev_7170c3ec9a1b2a32', 'ev_feffc806d3f520b1')
+  R3: 'Factory-fabricated single wall round ductwork and fittings' ev0=('ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88')
+
+prod_033:
+  R1: 'Factory-fabricated double wall round ductwork and fittings' ev0=('ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80')
+  R2: 'Weld material' ev0=('ev_483049e43195c743',)
+  R3: 'Factory-fabricated double wall round ductwork and fittings' ev0=('ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80')
+
+prod_034:
+  R1: 'Kitchen hood exhaust ducts and supports (carbon steel)' ev0=('ev_8c11f36b5c0a6b16',)
+  R2: 'Factory-fabricated single wall round ductwork' ev0=('ev_affe4d1a6dc7f4ab', 'ev_3f3064edc754ac88')
+  R3: 'Kitchen hood exhaust ducts and supports (carbon steel)' ev0=('ev_8c11f36b5c0a6b16',)
+
+prod_035:
+  R1: 'Warming Pantry hood exhaust duct and supports (galvanized steel)' ev0=('ev_94b5d6421b7ef21b',)
+  R2: 'Factory-fabricated double wall duct and fittings' ev0=('ev_cfcd9810a5a52323', 'ev_9d25ab6148f8ac80')
+  R3: 'Warming Pantry hood exhaust duct and supports (galvanized steel)' ev0=('ev_94b5d6421b7ef21b',)
+
+prod_036:
+  R1: 'Commercial Kitchen Grease Ducts (factory-built)' ev0=('ev_c413aa122af58a2d',)
+  R2: 'Kitchen hood exhaust ducts and supports (carbon steel sheets)' ev0=('ev_8c11f36b5c0a6b16', 'ev_4d97a600b847a059')
+  R3: 'Commercial Kitchen Grease Ducts (factory-built)' ev0=('ev_c413aa122af58a2d',)
+
+prod_037:
+  R1: 'Grease Duct Enclosure Assemblies (segmented)' ev0=('ev_bf8647c98e9f5f2c',)
+  R2: 'Listed and labeled factory-built commercial kitchen grease ducts' ev0=('ev_c413aa122af58a2d',)
+  R3: 'Grease Duct Enclosure Assemblies (segmented)' ev0=('ev_bf8647c98e9f5f2c',)
+
+prod_038:
+  R1: 'Packaged Sound Traps' ev0=('ev_b5583e625de4dc93', 'ev_6ffb136204d619ae')
+  R2: 'Warming Pantry hood exhaust duct and supports (galvanized steel)' ev0=('ev_94b5d6421b7ef21b',)
+  R3: 'Packaged Sound Traps' ev0=('ev_b5583e625de4dc93', 'ev_6ffb136204d619ae')
+
+prod_039:
+  R1: 'Fire Resistive Duct Assemblies' ev0=('ev_3320a2f033674997', 'ev_d7e9932a564d6a2e')
+  R2: 'Grease duct enclosure assemblies' ev0=('ev_bf8647c98e9f5f2c',)
+  R3: 'Fire Resistive Duct Assemblies' ev0=('ev_3320a2f033674997', 'ev_d7e9932a564d6a2e')
+
+prod_040:
+  R1: 'Metal Ductwork' ev0=('ev_de2673ee19c6281e', 'ev_6b8a13fc44449671')
+  R2: 'Sound traps (packaged)' ev0=('ev_b5583e625de4dc93', 'ev_b4181a501208a8e7')
+  R3: 'Metal Ductwork' ev0=('ev_de2673ee19c6281e', 'ev_6b8a13fc44449671')
+
+prod_041:
+  R1: 'Duct Fittings' ev0=('ev_6b8a13fc44449671',)
+  R2: 'Rectangular Sound Traps' ev0=('ev_e555999c165c1247',)
+  R3: 'Duct Fittings' ev0=('ev_6b8a13fc44449671',)
+
+prod_042:
+  R1: 'Hoods' ev0=('ev_d0927bbf4ba705b9',)
+  R2: 'Round Sound Traps' ev0=('ev_b7ca4316c88fbdd5', 'ev_aa1854e784d9fa60')
+  R3: 'Hoods' ev0=('ev_d0927bbf4ba705b9',)
+
+prod_043:
+  R1: 'HVAC Systems' ev0=('ev_4782875f7023100e',)
+  R2: 'Fire-Resistive Duct Assemblies' ev0=('ev_3320a2f033674997', 'ev_d7e9932a564d6a2e')
+  R3: 'HVAC Systems' ev0=('ev_4782875f7023100e',)
+
+prod_044:
+  R1: 'REJ:ABSENT' ev0=()
+  R2: 'Gasket materials' ev0=('ev_75895d67050c4bf3',)
+  R3: 'REJ:ABSENT' ev0=()

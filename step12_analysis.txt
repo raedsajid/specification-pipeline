@@ -1,0 +1,428 @@
+﻿TOP_KEYS run1: ['document', 'summary', 'submittal_regions', 'validated_extraction', 'validation_report', 'timings_seconds', 'pipeline_warnings']
+=== RUN1 ===
+requirements: 11
+product_groups: 8
+products: 42
+linked_products: 23
+unlinked_products: 19
+links: 26
+methods: {'explicit': 15, 'normalized': 6, 'inferred': 5}
+group_names: ['Sheet Metal', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire Resistive Duct Assemblies']
+req_titles: ['Shop Standards for Metal Ductwork', "Manufacturer's Product Data", 'ACGIH Figure Numbers for Hoods', 'Product Data for Fire-Resistive Duct Assemblies', 'Scaled Layout Drawings of Metal Ductwork and Fittings', 'Duct Hanger Attachment Details', 'ICC Certification for Expansion Bolts', 'Kitchen Exhaust Duct Layout and Fabrication Details', 'Fabrication Method for Fire-Resistive Duct Assemblies', 'Shop Drawings for Roof Openings', 'Duct Leakage Tests']
+req_types: ['product_data', 'product_data', 'product_data', 'product_data', 'shop_drawings', 'shop_drawings', 'certification', 'shop_drawings', 'shop_drawings', 'shop_drawings', 'quality_control']
+PRODUCT_NAMES:
+  - Aluminum
+  - Beam Clamps
+  - Cable Hanging Systems (Gripple)
+  - Commercial Kitchen Grease Ducts (factory-built)
+  - Duct Cement
+  - Duct Fittings
+  - Duct Sealant
+  - Expansion Bolts (Indoor Use)
+  - Factory-fabricated double wall round ductwork and fittings
+  - Factory-fabricated single wall round ductwork and fittings
+  - Fiberglass Duct Lining
+  - Fire Resistive Duct Assemblies
+  - Flexible Ducts
+  - Galvanized Steel
+  - Gasket Materials
+  - Grease Duct Enclosure Assemblies (segmented)
+  - HVAC Systems
+  - Hangers (Indoor Finishes)
+  - Hangers, Strut Channels and Angles (Corrosive Area Finishes)
+  - Hoods
+  - Inserts (for new composite metal decks)
+  - Inserts (for new conventional reinforced poured concrete slabs)
+  - Kitchen hood exhaust ducts and supports (carbon steel)
+  - Machine Bolts
+  - Metal Ductwork
+  - Nuts
+  - Packaged Sound Traps
+  - Polyimide Foam Duct Liner
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Rod Type Hangers and Angles
+  - Sheet Metal Screws
+  - Stainless Steel
+  - Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Strut Channels and Angles (Indoor Finishes)
+  - Tie Rods
+  - Underslab Ducts
+  - Warming Pantry hood exhaust duct and supports (galvanized steel)
+  - Weld material
+  - Welding Studs
+UNLINKED:
+  - Aluminum
+  - Beam Clamps
+  - Factory-fabricated double wall round ductwork and fittings
+  - Flexible Ducts
+  - Galvanized Steel
+  - Inserts (for new composite metal decks)
+  - Inserts (for new conventional reinforced poured concrete slabs)
+  - Machine Bolts
+  - Nuts
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Sheet Metal Screws
+  - Stainless Steel
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Tie Rods
+  - Underslab Ducts
+  - Weld material
+  - Welding Studs
+WATCH:
+  Screws: [UNLINKED] id=prod_016 name='Sheet Metal Screws'
+  Machine Bolts: [UNLINKED] id=prod_017 name='Machine Bolts'
+  Rivets: [UNLINKED] id=prod_018 name='Rivets'
+  Nuts: [UNLINKED] id=prod_019 name='Nuts'
+  Beam Clamps: [UNLINKED] id=prod_020 name='Beam Clamps'
+  Structural Steel: ABSENT
+  Stainless Steel: [UNLINKED] id=prod_003 name='Stainless Steel'
+  Stainless Steel: [LINKED] id=prod_014 name='Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)'
+  Stainless Steel: [UNLINKED] id=prod_023 name='Stainless Steel Shapes and Plates'
+  Welds: ABSENT
+  Double Wall Ductwork: ABSENT
+  Single Wall Round Fittings: ABSENT
+  Kitchen Hood Exhaust Ducts: [LINKED] id=prod_034 name='Kitchen hood exhaust ducts and supports (carbon steel)'
+  Duct Sealant: [LINKED] id=prod_024 name='Duct Sealant'
+  Duct Cement: [LINKED] id=prod_025 name='Duct Cement'
+  Duct Liner: [LINKED] id=prod_029 name='Polyimide Foam Duct Liner'
+  Sound Traps: [LINKED] id=prod_038 name='Packaged Sound Traps'
+  Fire Resistive Duct Assemblies: [LINKED] id=prod_039 name='Fire Resistive Duct Assemblies'
+
+TOP_KEYS run2: ['document', 'summary', 'submittal_regions', 'validated_extraction', 'validation_report', 'timings_seconds', 'pipeline_warnings']
+=== RUN2 ===
+requirements: 11
+product_groups: 8
+products: 38
+linked_products: 15
+unlinked_products: 23
+links: 17
+methods: {'inferred': 2, 'explicit': 8, 'normalized': 7}
+group_names: ['Sheet Metal Materials', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire-Resistive Duct Assemblies']
+req_titles: ['Shop Standards for Metal Ductwork', "Manufacturer's Product Data and Installation Instructions", 'ACGIH Figure Numbers for Hoods', 'Product Data for Fire-Resistive Duct Assemblies', 'Scaled Layout Drawings of Metal Ductwork and Fittings', 'Duct Hanger Attachment Shop Drawings', 'ICC Certification for Expansion Bolts', 'Layout and Fabrication Details for Kitchen Exhaust Ducts', 'Shop Manufactured Method of Fabrication for Fire-Resistive Duct Assemblies', 'Shop Drawings for Roof Openings', 'Duct Leakage Tests']
+req_types: ['product_data', 'product_data', 'product_data', 'product_data', 'shop_drawings', 'shop_drawings', 'certification', 'shop_drawings', 'shop_drawings', 'shop_drawings', 'quality_control']
+PRODUCT_NAMES:
+  - Aluminum
+  - Beam Clamps
+  - Cable Hanging Systems (Gripple)
+  - Duct Cement
+  - Duct Sealant
+  - Expansion Bolts (wedge-type zinc-coated fastener)
+  - Factory-fabricated double wall duct and fittings
+  - Factory-fabricated single wall round ductwork
+  - Fiberglass Duct Lining
+  - Fire-Resistive Duct Assemblies
+  - Flexible Ducts
+  - Galvanized Steel
+  - Gasket materials
+  - Grease duct enclosure assemblies
+  - Inserts for new composite metal decks
+  - Inserts for new conventional reinforced poured concrete slabs
+  - Kitchen hood exhaust ducts and supports (carbon steel sheets)
+  - Listed and labeled factory-built commercial kitchen grease ducts
+  - Machine Bolts
+  - Metal Ductwork
+  - Non-erosive, open cell, fiber-free, polyimide foam material
+  - Nuts
+  - Rectangular Sound Traps
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Rod Type Hangers and Angles
+  - Round Sound Traps
+  - Sheet Metal Screws
+  - Sound traps (packaged)
+  - Stainless Steel
+  - Stainless Steel Expansion Bolts
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Tie Rods
+  - Underslab Ducts
+  - Warming Pantry hood exhaust duct and supports (galvanized steel)
+  - Weld material
+  - Welding Studs
+UNLINKED:
+  - Aluminum
+  - Beam Clamps
+  - Factory-fabricated double wall duct and fittings
+  - Flexible Ducts
+  - Galvanized Steel
+  - Grease duct enclosure assemblies
+  - Inserts for new composite metal decks
+  - Inserts for new conventional reinforced poured concrete slabs
+  - Machine Bolts
+  - Nuts
+  - Rectangular Sound Traps
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Rod Type Hangers and Angles
+  - Round Sound Traps
+  - Sheet Metal Screws
+  - Stainless Steel
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Tie Rods
+  - Underslab Ducts
+  - Weld material
+  - Welding Studs
+WATCH:
+  Screws: [UNLINKED] id=prod_019 name='Sheet Metal Screws'
+  Machine Bolts: [UNLINKED] id=prod_020 name='Machine Bolts'
+  Rivets: [UNLINKED] id=prod_021 name='Rivets'
+  Nuts: [UNLINKED] id=prod_022 name='Nuts'
+  Beam Clamps: [UNLINKED] id=prod_023 name='Beam Clamps'
+  Structural Steel: ABSENT
+  Stainless Steel: [UNLINKED] id=prod_004 name='Stainless Steel'
+  Stainless Steel: [LINKED] id=prod_017 name='Stainless Steel Expansion Bolts'
+  Stainless Steel: [UNLINKED] id=prod_026 name='Stainless Steel Shapes and Plates'
+  Welds: ABSENT
+  Double Wall Ductwork: ABSENT
+  Single Wall Round Fittings: ABSENT
+  Kitchen Hood Exhaust Ducts: [LINKED] id=prod_036 name='Kitchen hood exhaust ducts and supports (carbon steel sheets)'
+  Duct Sealant: [LINKED] id=prod_027 name='Duct Sealant'
+  Duct Cement: [LINKED] id=prod_028 name='Duct Cement'
+  Duct Liner: ABSENT
+  Sound Traps: [LINKED] id=prod_040 name='Sound traps (packaged)'
+  Sound Traps: [UNLINKED] id=prod_041 name='Rectangular Sound Traps'
+  Sound Traps: [UNLINKED] id=prod_042 name='Round Sound Traps'
+  Fire Resistive Duct Assemblies: ABSENT
+
+TOP_KEYS run3: ['document', 'summary', 'submittal_regions', 'validated_extraction', 'validation_report', 'timings_seconds', 'pipeline_warnings']
+=== RUN3 ===
+requirements: 11
+product_groups: 8
+products: 42
+linked_products: 23
+unlinked_products: 19
+links: 26
+methods: {'explicit': 15, 'normalized': 6, 'inferred': 5}
+group_names: ['Sheet Metal', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire Resistive Duct Assemblies']
+req_titles: ['Shop Standards for Metal Ductwork', "Manufacturer's Product Data", 'ACGIH Figure Numbers for Hoods', 'Product Data for Fire-Resistive Duct Assemblies', 'Scaled Layout Drawings of Metal Ductwork and Fittings', 'Duct Hanger Attachment Details', 'ICC Certification for Expansion Bolts', 'Kitchen Exhaust Duct Layout and Fabrication Details', 'Fabrication Method for Fire-Resistive Duct Assemblies', 'Shop Drawings for Roof Openings', 'Duct Leakage Tests']
+req_types: ['product_data', 'product_data', 'product_data', 'product_data', 'shop_drawings', 'shop_drawings', 'certification', 'shop_drawings', 'shop_drawings', 'shop_drawings', 'quality_control']
+PRODUCT_NAMES:
+  - Aluminum
+  - Beam Clamps
+  - Cable Hanging Systems (Gripple)
+  - Commercial Kitchen Grease Ducts (factory-built)
+  - Duct Cement
+  - Duct Fittings
+  - Duct Sealant
+  - Expansion Bolts (Indoor Use)
+  - Factory-fabricated double wall round ductwork and fittings
+  - Factory-fabricated single wall round ductwork and fittings
+  - Fiberglass Duct Lining
+  - Fire Resistive Duct Assemblies
+  - Flexible Ducts
+  - Galvanized Steel
+  - Gasket Materials
+  - Grease Duct Enclosure Assemblies (segmented)
+  - HVAC Systems
+  - Hangers (Indoor Finishes)
+  - Hangers, Strut Channels and Angles (Corrosive Area Finishes)
+  - Hoods
+  - Inserts (for new composite metal decks)
+  - Inserts (for new conventional reinforced poured concrete slabs)
+  - Kitchen hood exhaust ducts and supports (carbon steel)
+  - Machine Bolts
+  - Metal Ductwork
+  - Nuts
+  - Packaged Sound Traps
+  - Polyimide Foam Duct Liner
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Rod Type Hangers and Angles
+  - Sheet Metal Screws
+  - Stainless Steel
+  - Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Strut Channels and Angles (Indoor Finishes)
+  - Tie Rods
+  - Underslab Ducts
+  - Warming Pantry hood exhaust duct and supports (galvanized steel)
+  - Weld material
+  - Welding Studs
+UNLINKED:
+  - Aluminum
+  - Beam Clamps
+  - Factory-fabricated double wall round ductwork and fittings
+  - Flexible Ducts
+  - Galvanized Steel
+  - Inserts (for new composite metal decks)
+  - Inserts (for new conventional reinforced poured concrete slabs)
+  - Machine Bolts
+  - Nuts
+  - Reinforcement Shapes and Plates
+  - Rivets
+  - Sheet Metal Screws
+  - Stainless Steel
+  - Stainless Steel Shapes and Plates
+  - Structural (carbon) Steel Shapes and Steel Plates
+  - Tie Rods
+  - Underslab Ducts
+  - Weld material
+  - Welding Studs
+WATCH:
+  Screws: [UNLINKED] id=prod_016 name='Sheet Metal Screws'
+  Machine Bolts: [UNLINKED] id=prod_017 name='Machine Bolts'
+  Rivets: [UNLINKED] id=prod_018 name='Rivets'
+  Nuts: [UNLINKED] id=prod_019 name='Nuts'
+  Beam Clamps: [UNLINKED] id=prod_020 name='Beam Clamps'
+  Structural Steel: ABSENT
+  Stainless Steel: [UNLINKED] id=prod_003 name='Stainless Steel'
+  Stainless Steel: [LINKED] id=prod_014 name='Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)'
+  Stainless Steel: [UNLINKED] id=prod_023 name='Stainless Steel Shapes and Plates'
+  Welds: ABSENT
+  Double Wall Ductwork: ABSENT
+  Single Wall Round Fittings: ABSENT
+  Kitchen Hood Exhaust Ducts: [LINKED] id=prod_034 name='Kitchen hood exhaust ducts and supports (carbon steel)'
+  Duct Sealant: [LINKED] id=prod_024 name='Duct Sealant'
+  Duct Cement: [LINKED] id=prod_025 name='Duct Cement'
+  Duct Liner: [LINKED] id=prod_029 name='Polyimide Foam Duct Liner'
+  Sound Traps: [LINKED] id=prod_038 name='Packaged Sound Traps'
+  Fire Resistive Duct Assemblies: [LINKED] id=prod_039 name='Fire Resistive Duct Assemblies'
+
+=== STABILITY ===
+req titles identical? False
+req types identical? True
+run1 counts {'req': 11, 'groups': 8, 'prods': 42, 'linked': 23, 'unlinked': 19, 'links': 26, 'methods': {'explicit': 15, 'normalized': 6, 'inferred': 5}}
+run1 groups ['Sheet Metal', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire Resistive Duct Assemblies']
+run2 counts {'req': 11, 'groups': 8, 'prods': 38, 'linked': 15, 'unlinked': 23, 'links': 17, 'methods': {'inferred': 2, 'explicit': 8, 'normalized': 7}}
+run2 groups ['Sheet Metal Materials', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire-Resistive Duct Assemblies']
+run3 counts {'req': 11, 'groups': 8, 'prods': 42, 'linked': 23, 'unlinked': 19, 'links': 26, 'methods': {'explicit': 15, 'normalized': 6, 'inferred': 5}}
+run3 groups ['Sheet Metal', 'Hangers and Supports', 'Miscellaneous Ductwork Materials', 'Factory-Fabricated Single Wall Round Ductwork', 'Factory-Fabricated Double Wall Round Ductwork', 'Kitchen Exhaust Ducts', 'Sound Traps for Ductwork', 'Fire Resistive Duct Assemblies']
+product name intersection: 23
+product name union: 57
+always present:
+  Aluminum
+  Beam Clamps
+  Cable Hanging Systems (Gripple)
+  Duct Cement
+  Duct Sealant
+  Fiberglass Duct Lining
+  Flexible Ducts
+  Galvanized Steel
+  Machine Bolts
+  Metal Ductwork
+  Nuts
+  Reinforcement Shapes and Plates
+  Rivets
+  Rod Type Hangers and Angles
+  Sheet Metal Screws
+  Stainless Steel
+  Stainless Steel Shapes and Plates
+  Structural (carbon) Steel Shapes and Steel Plates
+  Tie Rods
+  Underslab Ducts
+  Warming Pantry hood exhaust duct and supports (galvanized steel)
+  Weld material
+  Welding Studs
+not always present:
+  Commercial Kitchen Grease Ducts (factory-built): runs [1, 3]
+  Duct Fittings: runs [1, 3]
+  Expansion Bolts (Indoor Use): runs [1, 3]
+  Expansion Bolts (wedge-type zinc-coated fastener): runs [2]
+  Factory-fabricated double wall duct and fittings: runs [2]
+  Factory-fabricated double wall round ductwork and fittings: runs [1, 3]
+  Factory-fabricated single wall round ductwork: runs [2]
+  Factory-fabricated single wall round ductwork and fittings: runs [1, 3]
+  Fire Resistive Duct Assemblies: runs [1, 3]
+  Fire-Resistive Duct Assemblies: runs [2]
+  Gasket Materials: runs [1, 3]
+  Gasket materials: runs [2]
+  Grease Duct Enclosure Assemblies (segmented): runs [1, 3]
+  Grease duct enclosure assemblies: runs [2]
+  HVAC Systems: runs [1, 3]
+  Hangers (Indoor Finishes): runs [1, 3]
+  Hangers, Strut Channels and Angles (Corrosive Area Finishes): runs [1, 3]
+  Hoods: runs [1, 3]
+  Inserts (for new composite metal decks): runs [1, 3]
+  Inserts (for new conventional reinforced poured concrete slabs): runs [1, 3]
+  Inserts for new composite metal decks: runs [2]
+  Inserts for new conventional reinforced poured concrete slabs: runs [2]
+  Kitchen hood exhaust ducts and supports (carbon steel sheets): runs [2]
+  Kitchen hood exhaust ducts and supports (carbon steel): runs [1, 3]
+  Listed and labeled factory-built commercial kitchen grease ducts: runs [2]
+  Non-erosive, open cell, fiber-free, polyimide foam material: runs [2]
+  Packaged Sound Traps: runs [1, 3]
+  Polyimide Foam Duct Liner: runs [1, 3]
+  Rectangular Sound Traps: runs [2]
+  Round Sound Traps: runs [2]
+  Sound traps (packaged): runs [2]
+  Stainless Steel Expansion Bolts: runs [2]
+  Stainless Steel Expansion Bolts (Outdoor/Corrosive Use): runs [1, 3]
+  Strut Channels and Angles (Indoor Finishes): runs [1, 3]
+consistently unlinked (all 3 runs):
+  Aluminum
+  Beam Clamps
+  Flexible Ducts
+  Galvanized Steel
+  Machine Bolts
+  Nuts
+  Reinforcement Shapes and Plates
+  Rivets
+  Sheet Metal Screws
+  Stainless Steel
+  Stainless Steel Shapes and Plates
+  Structural (carbon) Steel Shapes and Steel Plates
+  Tie Rods
+  Underslab Ducts
+  Weld material
+  Welding Studs
+consistently linked (all 3 runs):
+  Cable Hanging Systems (Gripple)
+  Duct Cement
+  Duct Sealant
+  Fiberglass Duct Lining
+  Metal Ductwork
+  Warming Pantry hood exhaust duct and supports (galvanized steel)
+link triples intersection: 0
+link triples union: 43
+stable links:
+unstable links:
+  ('ACGIH Figure Numbers for Hoods', 'Hoods', 'explicit'): runs [1, 3]
+  ('Duct Hanger Attachment Details', 'Cable Hanging Systems (Gripple)', 'explicit'): runs [1, 3]
+  ('Duct Hanger Attachment Details', 'Hangers (Indoor Finishes)', 'normalized'): runs [1, 3]
+  ('Duct Hanger Attachment Details', 'Hangers, Strut Channels and Angles (Corrosive Area Finishes)', 'inferred'): runs [1, 3]
+  ('Duct Hanger Attachment Details', 'Rod Type Hangers and Angles', 'inferred'): runs [1, 3]
+  ('Duct Hanger Attachment Details', 'Strut Channels and Angles (Indoor Finishes)', 'inferred'): runs [1, 3]
+  ('Duct Hanger Attachment Shop Drawings', 'Cable Hanging Systems (Gripple)', 'explicit'): runs [2]
+  ('Duct Leakage Tests', 'Metal Ductwork', 'inferred'): runs [1, 3]
+  ('Fabrication Method for Fire-Resistive Duct Assemblies', 'Fire Resistive Duct Assemblies', 'explicit'): runs [1, 3]
+  ('ICC Certification for Expansion Bolts', 'Expansion Bolts (Indoor Use)', 'explicit'): runs [1, 3]
+  ('ICC Certification for Expansion Bolts', 'Expansion Bolts (wedge-type zinc-coated fastener)', 'explicit'): runs [2]
+  ('ICC Certification for Expansion Bolts', 'Stainless Steel Expansion Bolts', 'normalized'): runs [2]
+  ('ICC Certification for Expansion Bolts', 'Stainless Steel Expansion Bolts (Outdoor/Corrosive Use)', 'explicit'): runs [1, 3]
+  ('Kitchen Exhaust Duct Layout and Fabrication Details', 'Commercial Kitchen Grease Ducts (factory-built)', 'normalized'): runs [1, 3]
+  ('Kitchen Exhaust Duct Layout and Fabrication Details', 'Grease Duct Enclosure Assemblies (segmented)', 'normalized'): runs [1, 3]
+  ('Kitchen Exhaust Duct Layout and Fabrication Details', 'Kitchen hood exhaust ducts and supports (carbon steel)', 'explicit'): runs [1, 3]
+  ('Kitchen Exhaust Duct Layout and Fabrication Details', 'Warming Pantry hood exhaust duct and supports (galvanized steel)', 'normalized'): runs [1, 3]
+  ('Layout and Fabrication Details for Kitchen Exhaust Ducts', 'Kitchen hood exhaust ducts and supports (carbon steel sheets)', 'normalized'): runs [2]
+  ('Layout and Fabrication Details for Kitchen Exhaust Ducts', 'Listed and labeled factory-built commercial kitchen grease ducts', 'normalized'): runs [2]
+  ('Layout and Fabrication Details for Kitchen Exhaust Ducts', 'Warming Pantry hood exhaust duct and supports (galvanized steel)', 'normalized'): runs [2]
+  ("Manufacturer's Product Data", 'Duct Cement', 'explicit'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Duct Sealant', 'explicit'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Factory-fabricated single wall round ductwork and fittings', 'explicit'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Fiberglass Duct Lining', 'normalized'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Gasket Materials', 'explicit'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Packaged Sound Traps', 'explicit'): runs [1, 3]
+  ("Manufacturer's Product Data", 'Polyimide Foam Duct Liner', 'normalized'): runs [1, 3]
+  ("Manufacturer's Product Data and Installation Instructions", 'Duct Cement', 'normalized'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Duct Sealant', 'explicit'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Factory-fabricated single wall round ductwork', 'explicit'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Fiberglass Duct Lining', 'normalized'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Gasket materials', 'explicit'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Non-erosive, open cell, fiber-free, polyimide foam material', 'normalized'): runs [2]
+  ("Manufacturer's Product Data and Installation Instructions", 'Sound traps (packaged)', 'explicit'): runs [2]
+  ('Product Data for Fire-Resistive Duct Assemblies', 'Fire Resistive Duct Assemblies', 'explicit'): runs [1, 3]
+  ('Product Data for Fire-Resistive Duct Assemblies', 'Fire-Resistive Duct Assemblies', 'explicit'): runs [2]
+  ('Scaled Layout Drawings of Metal Ductwork and Fittings', 'Duct Fittings', 'explicit'): runs [1, 3]
+  ('Scaled Layout Drawings of Metal Ductwork and Fittings', 'Metal Ductwork', 'explicit'): runs [1, 3]
+  ('Scaled Layout Drawings of Metal Ductwork and Fittings', 'Metal Ductwork', 'inferred'): runs [2]
+  ('Shop Drawings for Roof Openings', 'HVAC Systems', 'inferred'): runs [1, 3]
+  ('Shop Manufactured Method of Fabrication for Fire-Resistive Duct Assemblies', 'Fire-Resistive Duct Assemblies', 'explicit'): runs [2]
+  ('Shop Standards for Metal Ductwork', 'Metal Ductwork', 'explicit'): runs [1, 3]
+  ('Shop Standards for Metal Ductwork', 'Metal Ductwork', 'inferred'): runs [2]

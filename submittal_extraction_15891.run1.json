@@ -1,0 +1,839 @@
+{
+  "document": {
+    "document_id": "D021779-15891 - METAL DUCTWORK.pdf",
+    "spec_section_id": "15891",
+    "section_number": "15891",
+    "section_title": "METAL DUCTWORK"
+  },
+  "summary": {
+    "source_evidence_count": 414,
+    "submittal_region_count": 1,
+    "submittal_evidence_count": 17,
+    "product_candidate_evidence_count": 175,
+    "raw_counts": {
+      "requirements": 11,
+      "product_groups": 8,
+      "products": 16,
+      "links": 19
+    },
+    "validated_counts": {
+      "requirements": 11,
+      "product_groups": 8,
+      "products": 16,
+      "links": 19
+    }
+  },
+  "submittal_regions": [
+    {
+      "start_index": 13,
+      "end_index": 29,
+      "start_evidence_id": "ev_7b2fac5ebc75f512",
+      "end_evidence_id": "ev_3322cd9dd6e09db8",
+      "evidence_ids": [
+        "ev_7b2fac5ebc75f512",
+        "ev_c565189a3e8495f9",
+        "ev_de2673ee19c6281e",
+        "ev_75895d67050c4bf3",
+        "ev_55994176cff57e44",
+        "ev_44a86723b2786229",
+        "ev_d0927bbf4ba705b9",
+        "ev_7a2969e0dea41312",
+        "ev_467b4461bab9b880",
+        "ev_6b8a13fc44449671",
+        "ev_e05acd7e23d41d2a",
+        "ev_5e4e34295abe15b2",
+        "ev_1cfce6ab7e598574",
+        "ev_f3176c741dd527a7",
+        "ev_4782875f7023100e",
+        "ev_dcaeabcabbd32cf8",
+        "ev_3322cd9dd6e09db8"
+      ],
+      "heading": "1.04 SUPPLEMENTAL SUBMITTALS",
+      "source_clause": "1.04",
+      "detection_method": "article_clause",
+      "warnings": []
+    }
+  ],
+  "validated_extraction": {
+    "requirements": [
+      {
+        "id": "req_001",
+        "spec_section_id": "15891",
+        "source_category": "Product Data",
+        "submittal_type": "product_data",
+        "title": "Shop Standards for metal ductwork",
+        "requirement_text": "Submit Shop Standards for metal ductwork including gages, materials, type of joints, sealing requirements, method of fabrication and reinforcing. Shop standards shall be in accordance with the SMACNA HVAC Duct Construction Standards, 2005 Edition.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.A.1",
+        "evidence_ids": [
+          "ev_de2673ee19c6281e"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_002",
+        "spec_section_id": "15891",
+        "source_category": "Product Data",
+        "submittal_type": "product_data",
+        "title": "Manufacturer's product data and installation instructions",
+        "requirement_text": "Submit manufacturer's product data for factory-fabricated single wall round ductwork, duct sealant and cement, gasket materials, duct liner and sound traps; and installation instructions.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.A.2",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_003",
+        "spec_section_id": "15891",
+        "source_category": "Product Data",
+        "submittal_type": "product_data",
+        "title": "ACGIH figure numbers for hoods",
+        "requirement_text": "Include American Conference of Governmental Industrial Hygienists (ACGIH) figure numbers for hoods",
+        "condition": "if applicable",
+        "cross_references": [],
+        "source_clause": "1.04.A.3",
+        "evidence_ids": [
+          "ev_d0927bbf4ba705b9"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_004",
+        "spec_section_id": "15891",
+        "source_category": "Product Data",
+        "submittal_type": "product_data",
+        "title": "Product data for factory manufactured commercial Fire-Resistive Duct Assemblies",
+        "requirement_text": "Submit product data for factory manufactured commercial Fire-Resistive Duct Assemblies.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.A.4",
+        "evidence_ids": [
+          "ev_7a2969e0dea41312"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_005",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "shop_drawings",
+        "title": "Scaled layout drawings of metal ductwork and fittings",
+        "requirement_text": "Submit scaled layout drawings (3/8\"=1') of metal ductwork and fittings including but not limited to duct sizes, locations, elevations, slopes of horizontal runs, wall and floor penetrations, and connections, including location of connections. Show modifications of indicated requirements, made to conform to local shop practice and how those modifications ensure that free area, materials and rigidity are not reduced.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.B.1",
+        "evidence_ids": [
+          "ev_6b8a13fc44449671"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_006",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "shop_drawings",
+        "title": "Method of attachment of duct hangers to building construction with support details",
+        "requirement_text": "Method of attachment of duct hangers to building construction with all the support details including methods for vibration isolation, cable hanging systems and seismic restraints.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.B.2",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_007",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "certification",
+        "title": "ICC certification for expansion bolts",
+        "requirement_text": "For expansion bolts installed in concrete, submit ICC certification for use in cracked concrete.",
+        "condition": "For expansion bolts installed in concrete",
+        "cross_references": [],
+        "source_clause": "1.04.B.2",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_008",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "shop_drawings",
+        "title": "Layout and fabrication details for kitchen exhaust ducts",
+        "requirement_text": "Layout and fabrication details for kitchen exhaust ducts.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.B.3",
+        "evidence_ids": [
+          "ev_1cfce6ab7e598574"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_009",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "shop_drawings",
+        "title": "Shop manufactured method of fabrication for Fire-Resistive Duct Assemblies",
+        "requirement_text": "Submit shop manufactured method of fabrication for Fire-Resistive Duct Assemblies.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.B.4",
+        "evidence_ids": [
+          "ev_f3176c741dd527a7"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_010",
+        "spec_section_id": "15891",
+        "source_category": "Shop Drawings",
+        "submittal_type": "shop_drawings",
+        "title": "Shop drawings for roof openings required for installation of HVAC systems",
+        "requirement_text": "HVAC Contractor shall provide shop drawings for all roof openings required for installation of HVAC systems. Roof opening shop drawings shall be dimensioned from the centerline of the nearest structural column and coordinated with the approved HVAC equipment, sheet metal shop drawings, framing plan, etc.",
+        "condition": null,
+        "cross_references": [],
+        "source_clause": "1.04.B.5",
+        "evidence_ids": [
+          "ev_4782875f7023100e"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "req_011",
+        "spec_section_id": "15891",
+        "source_category": "Quality Control Submittals",
+        "submittal_type": "test_report",
+        "title": "Duct Leakage Tests",
+        "requirement_text": "Duct Leakage Tests",
+        "condition": null,
+        "cross_references": [
+          "Section 15992, Cleaning and Testing"
+        ],
+        "source_clause": "1.04.C.1",
+        "evidence_ids": [
+          "ev_3322cd9dd6e09db8"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "product_groups": [
+      {
+        "id": "grp_001",
+        "spec_section_id": "15891",
+        "code": "2.01",
+        "name": "MATERIALS",
+        "parent_group_id": null,
+        "evidence_ids": [
+          "ev_9852a35c6dd37311"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_002",
+        "spec_section_id": "15891",
+        "code": "2.01.A",
+        "name": "Sheet Metal",
+        "parent_group_id": "grp_001",
+        "evidence_ids": [
+          "ev_80a0343a634ea786"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_003",
+        "spec_section_id": "15891",
+        "code": "2.01.C",
+        "name": "Hangers and Supports",
+        "parent_group_id": "grp_001",
+        "evidence_ids": [
+          "ev_b9bdbaa74aed0b22"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_004",
+        "spec_section_id": "15891",
+        "code": "2.01.D",
+        "name": "Miscellaneous Ductwork Materials",
+        "parent_group_id": "grp_001",
+        "evidence_ids": [
+          "ev_99ea46330cef5732"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_005",
+        "spec_section_id": "15891",
+        "code": "2.05",
+        "name": "FACTORY-FABRICATED SINGLE WALL ROUND DUCTWORK",
+        "parent_group_id": null,
+        "evidence_ids": [
+          "ev_94036b1542228494"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_006",
+        "spec_section_id": "15891",
+        "code": "2.07",
+        "name": "KITCHEN EXHAUST DUCTS",
+        "parent_group_id": null,
+        "evidence_ids": [
+          "ev_386fe1f5f28b64ed"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_007",
+        "spec_section_id": "15891",
+        "code": "2.08",
+        "name": "SOUND TRAPS FOR DUCTWORK",
+        "parent_group_id": null,
+        "evidence_ids": [
+          "ev_7257fca024b01bd6"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "grp_008",
+        "spec_section_id": "15891",
+        "code": "2.09",
+        "name": "FIRE RESISTIVE DUCT ASSEMBLIES",
+        "parent_group_id": null,
+        "evidence_ids": [
+          "ev_41f1c09538796219"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod_001",
+        "spec_section_id": "15891",
+        "name": "Metal ductwork",
+        "normalized_name": "Metal Ductwork",
+        "product_group_id": null,
+        "description": null,
+        "evidence_ids": [
+          "ev_de2673ee19c6281e",
+          "ev_6b8a13fc44449671",
+          "ev_3322cd9dd6e09db8"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_002",
+        "spec_section_id": "15891",
+        "name": "factory-fabricated single wall round ductwork",
+        "normalized_name": "Factory-Fabricated Single Wall Round Ductwork",
+        "product_group_id": "grp_005",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3",
+          "ev_affe4d1a6dc7f4ab"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_003",
+        "spec_section_id": "15891",
+        "name": "duct sealant",
+        "normalized_name": "Duct Sealant",
+        "product_group_id": "grp_004",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3",
+          "ev_6b3435d412351e9a"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_004",
+        "spec_section_id": "15891",
+        "name": "duct cement",
+        "normalized_name": "Duct Cement",
+        "product_group_id": "grp_004",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3",
+          "ev_2d679eab78d86cee"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_005",
+        "spec_section_id": "15891",
+        "name": "gasket materials",
+        "normalized_name": "Gasket Materials",
+        "product_group_id": "grp_004",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_006",
+        "spec_section_id": "15891",
+        "name": "duct liner",
+        "normalized_name": "Duct Liner",
+        "product_group_id": "grp_004",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3",
+          "ev_91dbdb536d1e56fa",
+          "ev_7170c3ec9a1b2a32",
+          "ev_feffc806d3f520b1"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_007",
+        "spec_section_id": "15891",
+        "name": "sound traps",
+        "normalized_name": "Sound Traps",
+        "product_group_id": "grp_007",
+        "description": null,
+        "evidence_ids": [
+          "ev_75895d67050c4bf3",
+          "ev_b5583e625de4dc93"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_008",
+        "spec_section_id": "15891",
+        "name": "hoods",
+        "normalized_name": "Hoods",
+        "product_group_id": null,
+        "description": null,
+        "evidence_ids": [
+          "ev_d0927bbf4ba705b9"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_009",
+        "spec_section_id": "15891",
+        "name": "factory manufactured commercial Fire-Resistive Duct Assemblies",
+        "normalized_name": "Fire-Resistive Duct Assemblies",
+        "product_group_id": "grp_008",
+        "description": null,
+        "evidence_ids": [
+          "ev_7a2969e0dea41312",
+          "ev_f3176c741dd527a7",
+          "ev_3320a2f033674997"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_010",
+        "spec_section_id": "15891",
+        "name": "fittings",
+        "normalized_name": "Fittings",
+        "product_group_id": null,
+        "description": null,
+        "evidence_ids": [
+          "ev_6b8a13fc44449671"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_011",
+        "spec_section_id": "15891",
+        "name": "duct hangers",
+        "normalized_name": "Duct Hangers",
+        "product_group_id": "grp_003",
+        "description": null,
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_012",
+        "spec_section_id": "15891",
+        "name": "cable hanging systems",
+        "normalized_name": "Cable Hanging Systems",
+        "product_group_id": "grp_003",
+        "description": null,
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2",
+          "ev_116dc1e748b77cf9"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_013",
+        "spec_section_id": "15891",
+        "name": "seismic restraints",
+        "normalized_name": "Seismic Restraints",
+        "product_group_id": "grp_003",
+        "description": null,
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_014",
+        "spec_section_id": "15891",
+        "name": "expansion bolts",
+        "normalized_name": "Expansion Bolts",
+        "product_group_id": "grp_003",
+        "description": null,
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2",
+          "ev_e4aaf6f656d1e099"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_015",
+        "spec_section_id": "15891",
+        "name": "kitchen exhaust ducts",
+        "normalized_name": "Kitchen Exhaust Ducts",
+        "product_group_id": "grp_006",
+        "description": null,
+        "evidence_ids": [
+          "ev_1cfce6ab7e598574",
+          "ev_8c11f36b5c0a6b16"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "prod_016",
+        "spec_section_id": "15891",
+        "name": "roof openings for HVAC systems",
+        "normalized_name": "Roof Openings for HVAC Systems",
+        "product_group_id": null,
+        "description": null,
+        "evidence_ids": [
+          "ev_4782875f7023100e"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "links": [
+      {
+        "id": "link_001",
+        "requirement_id": "req_001",
+        "product_id": "prod_001",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_de2673ee19c6281e"
+        ],
+        "source_phrase": "metal ductwork",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_002",
+        "requirement_id": "req_002",
+        "product_id": "prod_002",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "factory-fabricated single wall round ductwork",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_003",
+        "requirement_id": "req_002",
+        "product_id": "prod_003",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "duct sealant",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_004",
+        "requirement_id": "req_002",
+        "product_id": "prod_004",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "duct cement",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_005",
+        "requirement_id": "req_002",
+        "product_id": "prod_005",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "gasket materials",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_006",
+        "requirement_id": "req_002",
+        "product_id": "prod_006",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "duct liner",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_007",
+        "requirement_id": "req_002",
+        "product_id": "prod_007",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_75895d67050c4bf3"
+        ],
+        "source_phrase": "sound traps",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_008",
+        "requirement_id": "req_003",
+        "product_id": "prod_008",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_d0927bbf4ba705b9"
+        ],
+        "source_phrase": "hoods",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_009",
+        "requirement_id": "req_004",
+        "product_id": "prod_009",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_7a2969e0dea41312"
+        ],
+        "source_phrase": "factory manufactured commercial Fire-Resistive Duct Assemblies",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_010",
+        "requirement_id": "req_005",
+        "product_id": "prod_001",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_6b8a13fc44449671"
+        ],
+        "source_phrase": "metal ductwork",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_011",
+        "requirement_id": "req_005",
+        "product_id": "prod_010",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_6b8a13fc44449671"
+        ],
+        "source_phrase": "fittings",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_012",
+        "requirement_id": "req_006",
+        "product_id": "prod_011",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "source_phrase": "duct hangers",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_013",
+        "requirement_id": "req_006",
+        "product_id": "prod_012",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "source_phrase": "cable hanging systems",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_014",
+        "requirement_id": "req_006",
+        "product_id": "prod_013",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "source_phrase": "seismic restraints",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_015",
+        "requirement_id": "req_007",
+        "product_id": "prod_014",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_5e4e34295abe15b2"
+        ],
+        "source_phrase": "expansion bolts",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_016",
+        "requirement_id": "req_008",
+        "product_id": "prod_015",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_1cfce6ab7e598574"
+        ],
+        "source_phrase": "kitchen exhaust ducts",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_017",
+        "requirement_id": "req_009",
+        "product_id": "prod_009",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_f3176c741dd527a7"
+        ],
+        "source_phrase": "Fire-Resistive Duct Assemblies",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_018",
+        "requirement_id": "req_010",
+        "product_id": "prod_016",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_4782875f7023100e"
+        ],
+        "source_phrase": "roof openings required for installation of HVAC systems",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      },
+      {
+        "id": "link_019",
+        "requirement_id": "req_011",
+        "product_id": "prod_001",
+        "mapping_method": "explicit",
+        "evidence_ids": [
+          "ev_3322cd9dd6e09db8"
+        ],
+        "source_phrase": "Duct",
+        "confidence": null,
+        "review_required": false,
+        "review_status": "pending"
+      }
+    ]
+  },
+  "validation_report": {
+    "valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "entity_type": "product",
+        "entity_id": "prod_014",
+        "code": "unknown_evidence_id",
+        "message": "Unknown evidence ID 'ev_538423ffebb6b33' stripped.",
+        "evidence_ids": [
+          "ev_538423ffebb6b33"
+        ]
+      },
+      {
+        "severity": "warning",
+        "entity_type": "requirement",
+        "entity_id": "req_001",
+        "code": "unsupported_source_category",
+        "message": "source_category 'Product Data' not clearly supported by cited evidence text/headings.",
+        "evidence_ids": [
+          "ev_de2673ee19c6281e"
+        ]
+      },
+      {
+        "severity": "warning",
+        "entity_type": "requirement",
+        "entity_id": "req_003",
+        "code": "unsupported_source_category",
+        "message": "source_category 'Product Data' not clearly supported by cited evidence text/headings.",
+        "evidence_ids": [
+          "ev_d0927bbf4ba705b9"
+        ]
+      }
+    ],
+    "accepted_counts": {
+      "requirements": 11,
+      "product_groups": 8,
+      "products": 16,
+      "links": 19
+    },
+    "rejected_counts": {
+      "requirements": 0,
+      "product_groups": 0,
+      "products": 0,
+      "links": 0
+    },
+    "warning_counts": {
+      "warning:unsupported_source_category": 2,
+      "error:unknown_evidence_id": 1
+    },
+    "mapping_downgrades": [],
+    "stripped_cross_references": [],
+    "stripped_conditions": [],
+    "rejected_entities": []
+  },
+  "timings_seconds": {
+    "evidence_building": 0.04304210000555031,
+    "region_detection": 0.036000899999635294,
+    "product_candidate_collection": 0.001568300009239465,
+    "gemini_extraction": 51.49629430001369,
+    "validation": 0.012360499997157604,
+    "total": 51.589534200000344
+  },
+  "pipeline_warnings": []
+}

@@ -1,0 +1,113 @@
+﻿ARTIFACT CHECK: step12_run*.json lack raw_extraction; replaying via validated + rejected reconstruction.
+
+======================================================================
+DIAGNOSTIC CASES (name == normalized_name, both with qualifier)
+======================================================================
+
+Hangers (Indoor Finishes)
+  evidence: ['ev_9fc8b4cbc869c826']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Hangers' qualifier='Indoor Finishes'
+
+Strut Channels and Angles (Indoor Finishes)
+  evidence: ['ev_365041c061cf011c']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Strut Channels and Angles' qualifier='Indoor Finishes'
+
+Hangers (Outdoor Finishes)
+  evidence: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Hangers' qualifier='Outdoor Finishes'
+
+Strut Channels and Angles (Outdoor Finishes)
+  evidence: ['ev_4c39fdcbc999fdf5', 'ev_cb5df18302fafaea']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Strut Channels and Angles' qualifier='Outdoor Finishes'
+
+Hangers (Corrosive Area Finishes)
+  evidence: ['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Hangers' qualifier='Corrosive Area Finishes'
+
+Strut Channels and Angles (Corrosive Area Finishes)
+  evidence: ['ev_40437afded9bcc47', 'ev_75887718037245cc']
+  OLD: REJECT (unsupported)
+  NEW: PASS (match_mode=core_fallback, fallback=True)
+  normal name matched: False
+  normalized_name matched: False
+  core-name fallback matched: True
+  WARNING product_name_qualifier_not_source_literal core='Strut Channels and Angles' qualifier='Corrosive Area Finishes'
+
+--- Already-passing case (short normalized_name) ---
+  NEW match_mode=normalized_name fallback=False (expect normalized_name, no warning path)
+
+======================================================================
+NEGATIVE TESTS (must REJECT)
+======================================================================
+  Hangers (Nuclear Grade): REJECT (GOOD) mode=unsupported
+  Hangers (Fire Rated): REJECT (GOOD) mode=unsupported
+  Hangers (Higher Capacity): REJECT (GOOD) mode=unsupported
+  Hangers (Type 316): REJECT (GOOD) mode=unsupported
+  System (Indoor Finishes): REJECT (GOOD) mode=unsupported
+
+======================================================================
+REPLAY Step 12 artifacts (reconstructed raw; raw_extraction NOT saved)
+======================================================================
+
+RUN 1
+  OLD raw->val products: 43 -> 42 (delta 1)
+  NEW reconstructed raw -> val products: 43 -> 43 (delta 0)
+  OLD raw->val links: 27 -> 26 (delta 1)
+  NEW reconstructed raw -> val links: 27 -> 26 (delta 1)
+  groups accepted: 8 (raw groups 9)
+  remaining rejected products: NONE
+  remaining rejected groups: [{'entity_type': 'product_group', 'entity_id': 'grp_009', 'reason': 'no_valid_evidence'}]
+  qualifier-fallback warnings (1):
+    prod_008: Core product name 'Hangers, Strut Channels and Angles' is supported by cited evidence; parenthetical qualifier 'Outdoor Finishes' was not te
+
+RUN 2
+  OLD raw->val products: 44 -> 38 (delta 6)
+  NEW reconstructed raw -> val products: 44 -> 44 (delta 0)
+  OLD raw->val links: 20 -> 17 (delta 3)
+  NEW reconstructed raw -> val links: 20 -> 17 (delta 3)
+  groups accepted: 8 (raw groups 8)
+  remaining rejected products: NONE
+  remaining rejected groups: NONE
+  qualifier-fallback warnings (6):
+    prod_007: Core product name 'Hangers' is supported by cited evidence; parenthetical qualifier 'Indoor Finishes' was not textually supported as a whole
+    prod_008: Core product name 'Strut Channels and Angles' is supported by cited evidence; parenthetical qualifier 'Indoor Finishes' was not textually su
+    prod_009: Core product name 'Hangers' is supported by cited evidence; parenthetical qualifier 'Outdoor Finishes' was not textually supported as a whol
+    prod_010: Core product name 'Strut Channels and Angles' is supported by cited evidence; parenthetical qualifier 'Outdoor Finishes' was not textually s
+    prod_011: Core product name 'Hangers' is supported by cited evidence; parenthetical qualifier 'Corrosive Area Finishes' was not textually supported as
+    prod_012: Core product name 'Strut Channels and Angles' is supported by cited evidence; parenthetical qualifier 'Corrosive Area Finishes' was not text
+
+RUN 3
+  OLD raw->val products: 43 -> 42 (delta 1)
+  NEW reconstructed raw -> val products: 43 -> 43 (delta 0)
+  OLD raw->val links: 27 -> 26 (delta 1)
+  NEW reconstructed raw -> val links: 27 -> 26 (delta 1)
+  groups accepted: 8 (raw groups 9)
+  remaining rejected products: NONE
+  remaining rejected groups: [{'entity_type': 'product_group', 'entity_id': 'grp_009', 'reason': 'no_valid_evidence'}]
+  qualifier-fallback warnings (1):
+    prod_008: Core product name 'Hangers, Strut Channels and Angles' is supported by cited evidence; parenthetical qualifier 'Outdoor Finishes' was not te

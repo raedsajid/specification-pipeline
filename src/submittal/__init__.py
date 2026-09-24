@@ -1,0 +1,176 @@
+﻿"""Submittal Log extraction package.
+
+Exports domain models, pipeline helpers, and UI read-model builders.
+"""
+
+from src.submittal.extractor import (
+    extract_submittals,
+    prompt_character_count,
+)
+from src.submittal.models import (
+    BBox,
+    EvidenceKind,
+    MappingMethod,
+    Product,
+    ProductGroup,
+    RequirementProductLink,
+    ReviewStatus,
+    SourceEvidence,
+    SubmittalExtractionResult,
+    SubmittalRequirement,
+    SubmittalType,
+)
+from src.submittal.packaging import (
+    DraftSubmittalRow,
+    PackagingMode,
+    build_draft_submittals,
+    make_draft_id,
+    merge_draft_rows,
+)
+from src.submittal.pipeline import (
+    SubmittalPipelineError,
+    SubmittalPipelineResult,
+    resolve_scope_evidence,
+    run_submittal_extraction,
+)
+from src.submittal.export import (
+    ExportSubmittalRow,
+    ProjectExportBundle,
+    ProjectExportSummary,
+    build_project_export,
+    can_export_project,
+    export_excel_bytes,
+    export_markdown,
+    export_markdown_bytes,
+    sanitize_export_basename,
+)
+from src.submittal.presenter import (
+    build_section_submittal_view,
+    check_section_view_consistency,
+)
+from src.submittal.project import (
+    ProcessingStatus,
+    ProjectRegisterRow,
+    ProjectSpecDocument,
+    ProjectSpecSection,
+    ProjectSubmittalView,
+    build_project_documents_from_docling,
+    build_project_submittal_view,
+    make_document_id,
+    make_project_section_key,
+)
+from src.submittal.product_candidates import (
+    HeadingFallbackProductCandidateStrategy,
+    Part2ProductCandidateStrategy,
+    ProductCandidateCollection,
+    ProductCandidateRegion,
+    collect_product_candidate_evidence,
+)
+from src.submittal.region import (
+    SubmittalRegion,
+    get_region_evidence,
+    locate_submittal_regions,
+)
+from src.submittal.sections import (
+    SectionCoverageReport,
+    SpecSection,
+    discover_spec_sections,
+    make_section_id,
+    normalize_section_number,
+    section_coverage_report,
+)
+from src.submittal.source_review import (
+    EvidenceHighlight,
+    SourceReviewSelection,
+    build_source_review_selection,
+    resolve_evidence,
+)
+from src.submittal.validate import (
+    IssueSeverity,
+    ValidatedExtraction,
+    ValidationIssue,
+    ValidationReport,
+    validate_extraction,
+)
+from src.submittal.view_models import (
+    UNGROUPED_GROUP_ID,
+    UNGROUPED_GROUP_NAME,
+    ProductGroupView,
+    ProductView,
+    RequirementView,
+    SectionSubmittalView,
+)
+
+__all__ = [
+    "BBox",
+    "DraftSubmittalRow",
+    "ExportSubmittalRow",
+    "EvidenceHighlight",
+    "EvidenceKind",
+    "HeadingFallbackProductCandidateStrategy",
+    "IssueSeverity",
+    "MappingMethod",
+    "PackagingMode",
+    "Part2ProductCandidateStrategy",
+    "ProcessingStatus",
+    "Product",
+    "ProductCandidateCollection",
+    "ProductCandidateRegion",
+    "ProductGroup",
+    "ProductGroupView",
+    "ProductView",
+    "ProjectExportBundle",
+    "ProjectExportSummary",
+    "ProjectRegisterRow",
+    "ProjectSpecDocument",
+    "ProjectSpecSection",
+    "ProjectSubmittalView",
+    "RequirementProductLink",
+    "RequirementView",
+    "ReviewStatus",
+    "SectionCoverageReport",
+    "SectionSubmittalView",
+    "SourceEvidence",
+    "SourceReviewSelection",
+    "SpecSection",
+    "SubmittalExtractionResult",
+    "SubmittalPipelineError",
+    "SubmittalPipelineResult",
+    "SubmittalRegion",
+    "SubmittalRequirement",
+    "SubmittalType",
+    "UNGROUPED_GROUP_ID",
+    "UNGROUPED_GROUP_NAME",
+    "ValidatedExtraction",
+    "ValidationIssue",
+    "ValidationReport",
+    "build_draft_submittals",
+    "build_project_documents_from_docling",
+    "build_project_export",
+    "build_project_submittal_view",
+    "build_section_submittal_view",
+    "build_source_review_selection",
+    "can_export_project",
+    "check_section_view_consistency",
+    "collect_product_candidate_evidence",
+    "discover_spec_sections",
+    "export_excel_bytes",
+    "export_markdown",
+    "export_markdown_bytes",
+    "extract_submittals",
+    "get_region_evidence",
+    "locate_submittal_regions",
+    "make_document_id",
+    "make_draft_id",
+    "make_project_section_key",
+    "make_section_id",
+    "merge_draft_rows",
+    "normalize_section_number",
+    "prompt_character_count",
+    "resolve_evidence",
+    "resolve_scope_evidence",
+    "run_submittal_extraction",
+    "sanitize_export_basename",
+    "section_coverage_report",
+    "validate_extraction",
+]

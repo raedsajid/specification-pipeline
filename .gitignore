@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.streamlit/
+chroma_db/
+outputs/
+.cache_*.docling.json
+.debug_source_review/
+chunk_verification_examples.json
